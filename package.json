@@ -1,7 +1,7 @@
 {
   "scripts": {
     "heroku-prebuild": "cd api",
-    "build": "npm run add",
+    "build": "npm add",
     "start": "npm run develop"
   }
 }
