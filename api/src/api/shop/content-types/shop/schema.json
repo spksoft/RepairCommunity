@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "shops",
+  "info": {
+    "singularName": "shop",
+    "pluralName": "shops",
+    "displayName": "Shop",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "shopImages": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "province": {
+      "type": "string",
+      "required": true
+    },
+    "district": {
+      "type": "string",
+      "unique": false,
+      "required": true
+    },
+    "subDistrict": {
+      "type": "string"
+    },
+    "addressDetail": {
+      "type": "text"
+    },
+    "landmark": {
+      "type": "text"
+    }
+  }
+}
