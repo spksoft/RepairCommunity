@@ -17,15 +17,16 @@
       "required": true,
       "unique": true
     },
-    "shopImages": {
+    "shop_images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
     "province": {
       "type": "string",
@@ -36,14 +37,48 @@
       "unique": false,
       "required": true
     },
-    "subDistrict": {
+    "sub_district": {
       "type": "string"
     },
-    "addressDetail": {
+    "address_detail": {
       "type": "text"
     },
     "landmark": {
       "type": "text"
+    },
+    "operators": {
+      "type": "json"
+    },
+    "latitude": {
+      "type": "float",
+      "required": true
+    },
+    "longitude": {
+      "type": "float",
+      "required": true
+    },
+    "contracts": {
+      "type": "json"
+    },
+    "payments": {
+      "type": "json"
+    },
+    "establish_date": {
+      "type": "date"
+    },
+    "fitting_room": {
+      "type": "integer",
+      "default": 0
+    },
+    "notes": {
+      "type": "json"
+    },
+    "create_time": {
+      "type": "datetime"
+    },
+    "update_time": {
+      "type": "datetime",
+      "required": false
     }
   }
 }
