@@ -1,0 +1,23 @@
+{
+  "name": "ร้านซ่อมเสื้อพี่พร",
+  "province": "กรุงเทพ",
+  "district": "พญาไท",
+  "sub_district": "สามเสนใน",
+  "address_detail": "14 สหกรณ์พระนคร ห้อง E ชั้น1  อารีย์ 1 ",
+  "landmark": "ตั้งอยูระหว่างกลางด้านในสุดของตึก ภายในชั้น 1",
+  "operators": { "name": "พร" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": { "phone": "085-042-5932", "line": "", "facebook": "" },
+  "payments": { "payments": ["cash", "online"] },
+  "establish_date": "2014-01-01",
+  "fitting_room": 1,
+  "notes": [
+    {
+      "operting_time": "หยุดนักขัตฤกษ์",
+      "payment": "",
+      "condition": "ไม่มี",
+      "operator_experience": "เรียนจากประสบการณ์ตัวเอง"
+    }
+  ]
+}

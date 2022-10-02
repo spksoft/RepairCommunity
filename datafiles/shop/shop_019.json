@@ -1,0 +1,23 @@
+{
+  "name": "ลุุงเปี๊ยกซ่อมกางเกง",
+  "province": "กรุงเทพ",
+  "district": "",
+  "sub_district": "",
+  "address_detail": "",
+  "landmark": "หน้าร้านอาร์ตไลน์สปอร์ตอุปกรณ์กีฬา",
+  "operators": { "name": "ลุงเปี๊ยก" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": { "phone": "094-927-2379", "line": "", "facebook": "" },
+  "payments": { "payments": ["cash"] },
+  "establish_date": "2012-01-01",
+  "fitting_room": 0,
+  "notes": [
+    {
+      "operting_time": "",
+      "payment": "",
+      "condition": "",
+      "operator_experience": "ประสบการณ์การทำงานด้วยตนเอง"
+    }
+  ]
+}

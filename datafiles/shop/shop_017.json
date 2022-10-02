@@ -1,0 +1,27 @@
+{
+  "name": "น้องหนูตัดเย็บ",
+  "province": "กรุงเทพ",
+  "district": "ราชเทวี",
+  "sub_district": "",
+  "address_detail": "10/1 เพชรบุรี ",
+  "landmark": "ข้างร้านชาไข่มุก",
+  "operators": { "name": "ช่างหนู" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": {
+    "phone": "085-157-8877",
+    "line": "",
+    "facebook": "น้องหนูรับแก้ทรงกางเกง"
+  },
+  "payments": { "payments": ["cash", "online"] },
+  "establish_date": "2018-01-01",
+  "fitting_room": 1,
+  "notes": [
+    {
+      "operting_time": "",
+      "payment": "",
+      "condition": "",
+      "operator_experience": "ได้ประการณ์จากการเรียนกับคุณแม่ และช่างตัดเย็บมืออาชีพ ความรู้ที่ได้จากการเรียนมหาลัย"
+    }
+  ]
+}

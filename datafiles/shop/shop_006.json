@@ -1,0 +1,23 @@
+{
+  "name": "ร้านตัดเสื้อลุงขจร",
+  "province": "กรุงเทพ",
+  "district": "พญาไท",
+  "sub_district": "สามเสนใน",
+  "address_detail": "สุทธิสาร ",
+  "landmark": "ตรงข้ามซอยอินทามระ 15 ร้านติดถนนใหญ่หาง่าย",
+  "operators": { "name": "ขจร" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": { "phone": "082-975-5285", "line": "", "facebook": "" },
+  "payments": { "payments": ["cash"] },
+  "establish_date": "2002-01-01",
+  "fitting_room": 0,
+  "notes": [
+    {
+      "operting_time": "ปิดเฉพาะไปหาหมอ ลูกค้าโทรมาถามก่อนได้",
+      "payment": "เงินสดเท่านั้น ใช้เงินออนไลน์ไม่เป็น",
+      "condition": "ถ้าชำรุดหลังเอาออกจากร้านไป ซ่อมฟรี 2 ครั้ง",
+      "operator_experience": "เป็นลูกจ้างมาก่อนจากร้านใหญ่ ๆ แล้วออกมาทำเอง"
+    }
+  ]
+}

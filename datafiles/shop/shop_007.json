@@ -1,0 +1,27 @@
+{
+  "name": "ร้านคุณป๋องรับแก้เปลี่ยนทรงเสื้อผ้า",
+  "province": "กรุงเทพ",
+  "district": "พญาไท",
+  "sub_district": "สามเสนใน",
+  "address_detail": "4/1 สหกรณ์พระนคร ห้อง E ชั้น1  อารีย์ 1 ",
+  "landmark": "ตั้งอยูด้านในสุดของตึก ภายในชั้น 1",
+  "operators": { "name": "ป๋อง" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": {
+    "phone": "062-497-7580",
+    "line": "062-497-7580",
+    "facebook": ""
+  },
+  "payments": { "payments": ["cash", "online"] },
+  "establish_date": "2016-01-01",
+  "fitting_room": 0,
+  "notes": [
+    {
+      "operting_time": "หยุดนักขัตฤกษ์",
+      "payment": "Scan ได้",
+      "condition": "ตัดออกมาไม่พอดี แก้ไขฟรี รับงานไปประกันให้ภายใน 2 วัน",
+      "operator_experience": "ทำงานกับร้านเย็บผ้าใหญ่ ๆ มาก่อน แล้วออกมาเปิดร้านเอง"
+    }
+  ]
+}

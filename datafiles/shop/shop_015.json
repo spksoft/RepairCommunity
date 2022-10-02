@@ -1,0 +1,23 @@
+{
+  "name": "ร้านคุณป้าซ่อมผ้า ซอยเพชรบุรี41",
+  "province": "กรุงเทพ",
+  "district": "",
+  "sub_district": "",
+  "address_detail": "ซอยเพชรบุรี41 ",
+  "landmark": "ติดถนนใหญ่",
+  "operators": { "name": "ป้าแมว" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": { "phone": "", "line": "", "facebook": "" },
+  "payments": { "payments": ["cash", "online", "credit"] },
+  "establish_date": "1995-01-01",
+  "fitting_room": 1,
+  "notes": [
+    {
+      "operting_time": "",
+      "payment": "",
+      "condition": "ไม่มีประกันเพราะใช้ของคุณภาพ",
+      "operator_experience": "ฝึกงานกับช่างตัดเย็บมืออาชีพ"
+    }
+  ]
+}

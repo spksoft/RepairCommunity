@@ -1,0 +1,23 @@
+{
+  "name": "ห้องเสื้อ วัชรากรณ์",
+  "province": "กรุงเทพ",
+  "district": "พญาไท",
+  "sub_district": "สามเสนใน",
+  "address_detail": "1 สุทธิสารวินิจฉัย 1 ",
+  "landmark": "เจอร้านพิซซ่าเลี้ยวซ้าย เยิ้องโรงแรม ร้านอยู่ปากซอย สุทธิสารวินิจฉัย 1",
+  "operators": { "name": "วัชรพล" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": { "phone": "081-431-3402", "line": "", "facebook": "" },
+  "payments": { "payments": ["cash", "online"] },
+  "establish_date": "2012-01-01",
+  "fitting_room": 1,
+  "notes": [
+    {
+      "operting_time": "หากมีธุระด่วนถึงจะหยุด สามารถโทรสอบถามก่อนได้",
+      "payment": "",
+      "condition": "มีประกันจนกว่าลูกค้าจะพอใจ ไม่ค่อยรับงานลูกค้านอก แบบงานซ่อมเล็กน้อย",
+      "operator_experience": "ทำมาแล้ว 10 กว่าปี จากประสบการณ์การทำงาน"
+    }
+  ]
+}

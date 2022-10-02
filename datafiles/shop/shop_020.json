@@ -1,0 +1,27 @@
+{
+  "name": "ร้านลุงสงวนรับซ่อมเสื้อผ้า ตัดเย็บเสื้อผ้าด่วน",
+  "province": "กรุงเทพ",
+  "district": "ราชเทวี",
+  "sub_district": "ทุ่งพญาไท",
+  "address_detail": "448 ",
+  "landmark": "รั้วบ้านสีขาว",
+  "operators": { "name": "ลุงสงวน" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": {
+    "phone": "085-153-2648",
+    "line": "085-153-2648",
+    "facebook": ""
+  },
+  "payments": { "payments": ["cash", "online"] },
+  "establish_date": "2002-01-01",
+  "fitting_room": 0,
+  "notes": [
+    {
+      "operting_time": "",
+      "payment": "",
+      "condition": "",
+      "operator_experience": "ประสบการณ์จากการทำงาน20ปี"
+    }
+  ]
+}

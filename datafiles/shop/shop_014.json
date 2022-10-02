@@ -1,0 +1,23 @@
+{
+  "name": "ลุงเสริมซ่อมผ้า",
+  "province": "กรุงเทพ",
+  "district": "ราชเทวี",
+  "sub_district": "ทุ่งพญาไท",
+  "address_detail": "70/1 เพชรบุรี7 ",
+  "landmark": "ติดถนนใหญ่",
+  "operators": { "name": "ช่างเสริม" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": { "phone": "095-392-2688", "line": "", "facebook": "" },
+  "payments": { "payments": ["cash"] },
+  "establish_date": "2012-01-01",
+  "fitting_room": 0,
+  "notes": [
+    {
+      "operting_time": "",
+      "payment": "",
+      "condition": "",
+      "operator_experience": "ประสบการณ์การทำงาน"
+    }
+  ]
+}

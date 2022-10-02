@@ -1,0 +1,23 @@
+{
+  "name": "ร้านลุงก้องเกียรติซ่อมเสื้อ แก้ทรงเสื้อผ้า ตัดขากางเกง",
+  "province": "กรุงเทพ",
+  "district": "พญาไท",
+  "sub_district": "สามเสนใน",
+  "address_detail": "8 ประดิพัทธิ์ 19  ",
+  "landmark": "ติดถนนใหญ่",
+  "operators": { "name": "ก้องเกียรติ" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": { "phone": "092-856-2457", "line": "", "facebook": "" },
+  "payments": { "payments": ["cash", "online"] },
+  "establish_date": "2018-01-01",
+  "fitting_room": 1,
+  "notes": [
+    {
+      "operting_time": "บางครั้งต้องโทรสอบถามก่อน",
+      "payment": "",
+      "condition": "ไม่รับงานตัดทั้งสิ้น",
+      "operator_experience": "เรียนจากประสบการณ์ตัวเอง"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "ร้านตัดเสื้อลุงวัน(คลีนิคผ้าลุงวัน)",
+  "province": "กรุงเทพ",
+  "district": "พญาไท",
+  "sub_district": "สามเสนใน",
+  "address_detail": "",
+  "landmark": "ติดกับซอยวัดไผ่ตัน ข้างร้านอาหาร NIKUYO",
+  "operators": { "name": "ลุงวัน" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": { "phone": "081-059-1606", "line": "", "facebook": "" },
+  "payments": { "payments": ["cash"] },
+  "establish_date": "1962-01-01",
+  "fitting_room": 0,
+  "notes": [
+    {
+      "operting_time": "โทรมาถามก่อน",
+      "payment": "",
+      "condition": "รับแก้งานภายใน3วัน",
+      "operator_experience": "เรียนกับร้านทรงนิยมและประสบการณ์การทำงาน60ปี"
+    }
+  ]
+}

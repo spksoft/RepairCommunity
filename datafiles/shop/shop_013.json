@@ -1,0 +1,23 @@
+{
+  "name": "ช่างเรือน",
+  "province": "กรุงเทพ",
+  "district": "ราชเทวี",
+  "sub_district": "พญาไท",
+  "address_detail": "",
+  "landmark": "หน้าร้านทองเฮงสุวรรณ",
+  "operators": { "name": "ช่างเรือน" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": { "phone": "091-782-9396", "line": "", "facebook": "" },
+  "payments": { "payments": ["cash"] },
+  "establish_date": "1980-01-01",
+  "fitting_room": 0,
+  "notes": [
+    {
+      "operting_time": "โทรมาถามก่อน",
+      "payment": "ไม่มีรับโอน",
+      "condition": "ไม่รับประกัน เพราะมั่นใจฝีมือ",
+      "operator_experience": "เรียนจากร้านใหญ่มาก่อน และจากการสั่งสมประสบการณ์"
+    }
+  ]
+}

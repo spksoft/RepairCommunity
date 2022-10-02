@@ -1,0 +1,23 @@
+{
+  "name": "พี่เมย์ซ่อมผ้า",
+  "province": "กรุงเทพ",
+  "district": "พญาไท",
+  "sub_district": "สามเสนใน",
+  "address_detail": "1575/4 ",
+  "landmark": "ร้านตั้งอยู่หน้าช่างหมิง ซ่อมกุญแจ",
+  "operators": { "name": "เมย์" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": { "phone": "095-750-8303", "line": "", "facebook": "" },
+  "payments": { "payments": ["cash", "online"] },
+  "establish_date": "2018-01-01",
+  "fitting_room": 0,
+  "notes": [
+    {
+      "operting_time": "เวลาปิดหน้าร้านไม่ตรง เข้ามาหลัง 15:00 ต้องโทรเข้ามาก่อน",
+      "payment": "",
+      "condition": "ไม่รับตัดชุด ปรับงานให้จนกว่าลูกค้าจะพอใจ",
+      "operator_experience": "สืบทอดวิชามาจากรุ่นพ่อแม่"
+    }
+  ]
+}

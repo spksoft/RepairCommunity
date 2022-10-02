@@ -1,0 +1,27 @@
+{
+  "name": "สมบูรณ์สูท",
+  "province": "กรุงเทพ",
+  "district": "พญาไท",
+  "sub_district": "สามเสนใน",
+  "address_detail": "1/11 อินทามระ 21 ",
+  "landmark": "",
+  "operators": { "name": "จอย" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": {
+    "phone": "089-926-2896",
+    "line": "",
+    "facebook": "สมบูรณ์สูท"
+  },
+  "payments": { "payments": ["cash", "online"] },
+  "establish_date": "2012-01-01",
+  "fitting_room": 1,
+  "notes": [
+    {
+      "operting_time": "หยุดนักขัตฤกษ์",
+      "payment": "",
+      "condition": "งานของร้านจะแก้หรือซ่อมให้ฟรี (ขึ้นอยู่กับกรณีของสภาพงาน)",
+      "operator_experience": "ส่งต่อประสบการณ์มาสุ่นสู่รุ่น จากคูณปู่มาคุณพ่อและรุ่นเรา"
+    }
+  ]
+}

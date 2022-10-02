@@ -1,0 +1,27 @@
+{
+  "name": "Mixer Uniform สะพานควาย",
+  "province": "กรุงเทพ",
+  "district": "พญาไท",
+  "sub_district": "สามเสนใน",
+  "address_detail": "88 สุทธิสารวินิจฉัย ",
+  "landmark": "ใกล้ สุทธิสารวินิจฉัย 2",
+  "operators": { "name": "(ลูกจ้างในร้าน)" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": {
+    "phone": "081-633-0385",
+    "line": "Mixeruniform",
+    "facebook": "Mixer Uniform"
+  },
+  "payments": { "payments": ["cash", "online"] },
+  "establish_date": "2017-01-01",
+  "fitting_room": 0,
+  "notes": [
+    {
+      "operting_time": "",
+      "payment": "",
+      "condition": "งานของร้านจะแก้หรือซ่อมให้ฟรี",
+      "operator_experience": "เรียนมาจากศูนย์ฝึกอาชีพ นานแล้วเป็นสิบปี แล้วออกมาหางาน ก็สั่งสมการทำงานมาเรื่อย ๆ จนมาเป็นลูกจ้างที่นี่ กินอยู่กับร้านมาหลายปีแล้ว"
+    }
+  ]
+}

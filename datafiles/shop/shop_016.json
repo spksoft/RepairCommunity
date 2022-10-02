@@ -1,0 +1,23 @@
+{
+  "name": "ร้านเย็บเสื้อผ้าสงวน",
+  "province": "กรุงเทพ",
+  "district": "ราชเทวี",
+  "sub_district": "",
+  "address_detail": "116/4 เพชรบุรี7 ",
+  "landmark": "อยู่กลางซอย",
+  "operators": { "name": "ป้าสงวน" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": { "phone": "061-932-4198", "line": "", "facebook": "" },
+  "payments": { "payments": ["cash", "online"] },
+  "establish_date": "2012-01-01",
+  "fitting_room": 0,
+  "notes": [
+    {
+      "operting_time": "โทรมาถามก่อน",
+      "payment": "",
+      "condition": "ถ้าผลงานไม่เนียบ ส่งคืนได้เลย",
+      "operator_experience": "เรียนจากช่างเย็บผ้ามืออาชีพและสะสมประสบการณ์"
+    }
+  ]
+}
