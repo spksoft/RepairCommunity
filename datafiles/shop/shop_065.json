@@ -1,0 +1,23 @@
+{
+  "name": "Katai DIY รับตัดเสื้อ ซ่อมเสื้อผ้า เปลี่ยนซิป แก้ทรง",
+  "province": "กรุงเทพ",
+  "district": "สวนหลวง",
+  "sub_district": "สวนหลวง",
+  "address_detail": "145 อ่อนนุช46 ",
+  "landmark": "อยู่ในซอย อ่อนนุช 46",
+  "operators": { "name": "กระต่าย" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": { "phone": "095-721-6462", "line": "", "facebook": "" },
+  "payments": { "payments": ["cash", "online"] },
+  "establish_date": "2012-01-01",
+  "fitting_room": 1,
+  "notes": [
+    {
+      "operting_time": "โทรมาถามก่อน",
+      "payment": "",
+      "condition": "รับประกันภายใน2วัน",
+      "operator_experience": "ฝึกฝนด้วยตนเองและทางครอบครัวสอนให้"
+    }
+  ]
+}

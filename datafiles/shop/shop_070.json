@@ -1,0 +1,23 @@
+{
+  "name": "ป้าหน่อง",
+  "province": "กรุงเทพ",
+  "district": "พระโขนง",
+  "sub_district": "บางจาก",
+  "address_detail": "419/46 ซอยพึ่งมี52 ",
+  "landmark": "อยู่ในซอย พึ่งมี ",
+  "operators": { "name": "ป้าหน่อง" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": { "phone": "062-249-6591", "line": "", "facebook": "" },
+  "payments": { "payments": ["cash", "online"] },
+  "establish_date": "2002-01-01",
+  "fitting_room": 0,
+  "notes": [
+    {
+      "operting_time": "",
+      "payment": "",
+      "condition": "มั่นใจในฝีมือตนเอง ไม่มีประกัน",
+      "operator_experience": "เรียนรู้โดยตรงจากพ่อแม่"
+    }
+  ]
+}

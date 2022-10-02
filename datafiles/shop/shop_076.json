@@ -1,0 +1,23 @@
+{
+  "name": "ป้ารัตน์บริการซ่อมผ้าแก้ทรง",
+  "province": "กรุงเทพ",
+  "district": "บางนา",
+  "sub_district": "บางนา",
+  "address_detail": "103 สุขุมวิท103 ",
+  "landmark": "อยู่ในตลาดอุดมสุข",
+  "operators": { "name": "ป้ารันต์" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": { "phone": "064-584-4370", "line": "", "facebook": "" },
+  "payments": { "payments": ["cash", "online"] },
+  "establish_date": "2002-01-01",
+  "fitting_room": 0,
+  "notes": [
+    {
+      "operting_time": "หยุดวันขัตฤกษ์",
+      "payment": "",
+      "condition": "มั่นใจในฝีมือตนเอง ไม่มีประกัน",
+      "operator_experience": "ฝึกฝนด้วยตนเอง"
+    }
+  ]
+}

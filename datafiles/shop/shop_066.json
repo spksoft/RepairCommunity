@@ -1,0 +1,23 @@
+{
+  "name": "เบสท์กะบูม",
+  "province": "กรุงเทพ",
+  "district": "พระโขนง",
+  "sub_district": "บางจาก",
+  "address_detail": "พึ่งมี 50/38 ",
+  "landmark": "อยู่ในซอย พึ่งมี  50/38",
+  "operators": { "name": "" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": { "phone": "082-878-9309", "line": "", "facebook": "" },
+  "payments": { "payments": ["cash", "online"] },
+  "establish_date": "2002-01-01",
+  "fitting_room": 1,
+  "notes": [
+    {
+      "operting_time": "โทรมาถามก่อน",
+      "payment": "",
+      "condition": "ถ้าผิดพลาดจากทางร้าน รับผิดชอบทั้งหมด",
+      "operator_experience": "ฝึกฝนด้วยตนเอง"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Supimporn รับซ่อมแซมเสื้อผ้า",
+  "province": "กรุงเทพ",
+  "district": "บางนา",
+  "sub_district": "บางนา",
+  "address_detail": "65/6 สุขุมวิท103/2 ",
+  "landmark": "อยู่ในตลาดอุดมสุข",
+  "operators": { "name": "สุพิมพ์พร" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": { "phone": "080-744-5517", "line": "Supimporn", "facebook": "" },
+  "payments": { "payments": ["cash"] },
+  "establish_date": "2012-01-01",
+  "fitting_room": 0,
+  "notes": [
+    {
+      "operting_time": "",
+      "payment": "",
+      "condition": "ปรับปรุงจนกว่าลูกค้าจะพอใจ",
+      "operator_experience": "เรียนจบสายตรงของวิชาชีพ และจึงมาเปิดร้าน"
+    }
+  ]
+}

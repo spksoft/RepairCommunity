@@ -1,0 +1,23 @@
+{
+  "name": "ป้าใหญ่ ซ่อมผ้า แก้ไขทรง",
+  "province": "กรุงเทพ",
+  "district": "วัฒนา",
+  "sub_district": "พระโขนงเหนือ",
+  "address_detail": "",
+  "landmark": "ใกล้ Big C Extra อ่อนนุช ติดถนนใหญ่",
+  "operators": { "name": "ป้าใหญ่" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": { "phone": "", "line": "", "facebook": "" },
+  "payments": { "payments": ["cash"] },
+  "establish_date": "2002-01-01",
+  "fitting_room": 0,
+  "notes": [
+    {
+      "operting_time": "",
+      "payment": "",
+      "condition": "",
+      "operator_experience": "ฝึกฝนด้วยตนเอง"
+    }
+  ]
+}

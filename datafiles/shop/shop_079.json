@@ -1,0 +1,23 @@
+{
+  "name": "ป้าต๋อย เปลี่ยนซิป แก้ทรง",
+  "province": "กรุงเทพ",
+  "district": "บางนา",
+  "sub_district": "บางนา",
+  "address_detail": "อุดมสุข26 แยก39 ",
+  "landmark": "อยู่ในซอย อุดมสุข26 แยก39",
+  "operators": { "name": "ป้าต๋อย" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": { "phone": "089-535-6581", "line": "", "facebook": "" },
+  "payments": { "payments": ["cash", "online"] },
+  "establish_date": "2002-01-01",
+  "fitting_room": 0,
+  "notes": [
+    {
+      "operting_time": "โทรมาถามก่อน",
+      "payment": "",
+      "condition": "ถ้าผิดพลาดจากทางร้าน รับผิดชอบทั้งหมด",
+      "operator_experience": "เคยทำงานตัดเย็บมาก่อน และจึงมาเปิดร้าน"
+    }
+  ]
+}

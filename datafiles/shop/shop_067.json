@@ -1,0 +1,23 @@
+{
+  "name": "ป้าอ้อ รับซ่อมเสื้อผ้า",
+  "province": "กรุงเทพ",
+  "district": "พระโขนง",
+  "sub_district": "บางจาก",
+  "address_detail": "พึ่งมี 50/34 ",
+  "landmark": "อยู่ในซอย พึ่งมี 50/34",
+  "operators": { "name": "ป้าอ้อ" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": { "phone": "", "line": "", "facebook": "" },
+  "payments": { "payments": ["cash"] },
+  "establish_date": "1992-01-01",
+  "fitting_room": 0,
+  "notes": [
+    {
+      "operting_time": "",
+      "payment": "",
+      "condition": "มั่นใจในฝีมือตนเอง ไม่มีประกัน",
+      "operator_experience": "ฝึกฝนด้วยตนเอง"
+    }
+  ]
+}

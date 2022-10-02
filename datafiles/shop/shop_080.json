@@ -1,0 +1,23 @@
+{
+  "name": "ลัดดา ซ่อมผ้า(เฉลิมพระเกียรติอุดมสุข ศรีนครินทร์)",
+  "province": "กรุงเทพ",
+  "district": "ประเวศ",
+  "sub_district": "หนองบอน",
+  "address_detail": "นิรันดร์4ชั้น1 เฉลิมพระเกียรติ23 ",
+  "landmark": "อยู่ล็อคแรก",
+  "operators": { "name": "ลัดดา" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": { "phone": "085-056-6139", "line": "", "facebook": "" },
+  "payments": { "payments": ["cash", "online"] },
+  "establish_date": "2002-01-01",
+  "fitting_room": 1,
+  "notes": [
+    {
+      "operting_time": "หยุดวันขัตฤกษ์",
+      "payment": "",
+      "condition": "ปรับปรุงจนกว่าลูกค้าจะพอใจ",
+      "operator_experience": "เคยทำงานตัดเย็บมาก่อน และจึงมาเปิดร้าน"
+    }
+  ]
+}

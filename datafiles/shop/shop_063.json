@@ -1,0 +1,23 @@
+{
+  "name": "ป้าแจ้ ซ่อมแก้ไขทรงเสื้อผ้า",
+  "province": "กรุงเทพ",
+  "district": "สวนหลวง",
+  "sub_district": "สวนหลวง",
+  "address_detail": "อ่อนนุช 44 ",
+  "landmark": "ตรงข้ามซอยอ่อนนุช44/2 ติดถนนใหญ่",
+  "operators": { "name": "ป้าแจ้" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": { "phone": "", "line": "", "facebook": "" },
+  "payments": { "payments": ["cash"] },
+  "establish_date": "1983-01-01",
+  "fitting_room": 0,
+  "notes": [
+    {
+      "operting_time": "",
+      "payment": "",
+      "condition": "ไม่มีประกัน งานทุกชิ้นต้องให้ช่างประเมินหน้างานเท่านั้น",
+      "operator_experience": "ฝึกฝนด้วยตนเอง"
+    }
+  ]
+}

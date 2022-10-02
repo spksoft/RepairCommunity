@@ -1,0 +1,23 @@
+{
+  "name": "แม่อารีย์ รับตัดเสื้อ แก้ทรง",
+  "province": "กรุงเทพ",
+  "district": "สวนหลวง",
+  "sub_district": "สวนหลวง",
+  "address_detail": "1267 อ่อนนุุช 46 ",
+  "landmark": "อยู่ในซอย อ่อนนุช 44",
+  "operators": { "name": "แม่อารีย์" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": { "phone": "082-508-2359", "line": "", "facebook": "" },
+  "payments": { "payments": ["cash", "online"] },
+  "establish_date": "1997-01-01",
+  "fitting_room": 1,
+  "notes": [
+    {
+      "operting_time": "",
+      "payment": "",
+      "condition": "รับประกันภายใน2วัน",
+      "operator_experience": "ฝึกฝนด้วยตนเอง"
+    }
+  ]
+}

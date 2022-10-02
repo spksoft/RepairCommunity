@@ -1,0 +1,23 @@
+{
+  "name": "ร้านตัดเย็บเสื้อผ้าสตรี หนึ่ง",
+  "province": "กรุงเทพ",
+  "district": "บางนา",
+  "sub_district": "บางนา",
+  "address_detail": "สุขุมวิท103 ",
+  "landmark": "อยู่สุดซอยร้านอยู่ซ้ายมือ",
+  "operators": { "name": "หนึ่ง" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": { "phone": "081-459-4397", "line": "", "facebook": "" },
+  "payments": { "payments": ["cash", "online"] },
+  "establish_date": "2012-01-01",
+  "fitting_room": 0,
+  "notes": [
+    {
+      "operting_time": "",
+      "payment": "",
+      "condition": "ปรับปรุงจนกว่าลูกค้าจะพอใจ",
+      "operator_experience": "เรียนจบสายตรงของวิชาชีพ และมีประสบการณ์การทำงานอยู่แล้ว"
+    }
+  ]
+}

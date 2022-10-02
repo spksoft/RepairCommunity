@@ -1,0 +1,23 @@
+{
+  "name": "ผิงผิง ซ่อมผ้า",
+  "province": "กรุงเทพ",
+  "district": "พระโขนง",
+  "sub_district": "บางจาก",
+  "address_detail": "3037/11 สุขุมวิท101 ",
+  "landmark": "ติด BTS บางจาก ติดป้ารถเมล์",
+  "operators": { "name": "ผิงผิง" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": { "phone": "061-318-4366", "line": "", "facebook": "" },
+  "payments": { "payments": ["cash", "online"] },
+  "establish_date": "2012-01-01",
+  "fitting_room": 0,
+  "notes": [
+    {
+      "operting_time": "",
+      "payment": "",
+      "condition": "มั่นใจในฝีมือตนเอง ไม่มีประกัน",
+      "operator_experience": "เรียนรู้จากตอนทำงานกับโรงงานตัดเย็บแล้วออกมาทำร้านเอง"
+    }
+  ]
+}

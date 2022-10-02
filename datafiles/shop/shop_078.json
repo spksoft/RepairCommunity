@@ -1,0 +1,23 @@
+{
+  "name": "ร้านซ่อมผ้ากรรณิกร",
+  "province": "กรุงเทพ",
+  "district": "บางนา",
+  "sub_district": "บางนา",
+  "address_detail": "1010/1 อุดมสุข26 แยก29 ",
+  "landmark": "อยู่ในซอย อุดมสุข26 แยก29",
+  "operators": { "name": "ปุ๋ย" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": { "phone": "081-778-1675", "line": "", "facebook": "" },
+  "payments": { "payments": ["cash", "online"] },
+  "establish_date": "2002-01-01",
+  "fitting_room": 0,
+  "notes": [
+    {
+      "operting_time": "",
+      "payment": "",
+      "condition": "มั่นใจในฝีมือตนเอง ไม่มีประกัน",
+      "operator_experience": "เรียนจบสายตรงของวิชาชีพ และมีประสบการณ์การทำงานอยู่แล้ว"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "พี่ตุ้ม ซ่อมเสื้อผ้า เปลี่ยนทรง",
+  "province": "กรุงเทพ",
+  "district": "วัฒนา",
+  "sub_district": "คลองตันเหนือ",
+  "address_detail": "ปรีดีพนมยงค์42 ",
+  "landmark": "ติดถนนใหญ่",
+  "operators": { "name": "ตุ้ม" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": {
+    "phone": "064-891-6251",
+    "line": "s0648916251",
+    "facebook": ""
+  },
+  "payments": { "payments": ["cash", "online"] },
+  "establish_date": "2016-01-01",
+  "fitting_room": 0,
+  "notes": [
+    {
+      "operting_time": "",
+      "payment": "",
+      "condition": "ดูแลจนกว่าจะพอใจ",
+      "operator_experience": "เรียนจบสายตรงของวิชาชีพ และมีประสบการณ์การทำงานอยู่แล้ว"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "ร้านป้าหน้าร้านห้างทองอุดมสิน",
+  "province": "กรุงเทพ",
+  "district": "บางนา",
+  "sub_district": "บางนา",
+  "address_detail": "สุขุมวิท103 ",
+  "landmark": "เข้ามาอยู่สุดซอย",
+  "operators": { "name": "" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": { "phone": "", "line": "", "facebook": "" },
+  "payments": { "payments": ["cash"] },
+  "establish_date": "2002-01-01",
+  "fitting_room": 0,
+  "notes": [
+    {
+      "operting_time": "",
+      "payment": "",
+      "condition": "มั่นใจในฝีมือตนเอง ไม่มีประกัน",
+      "operator_experience": "ฝึกฝนด้วยตนเอง"
+    }
+  ]
+}
