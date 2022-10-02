@@ -1,0 +1,23 @@
+{
+  "name": "เลิศสูท",
+  "province": "กรุงเทพ",
+  "district": "คลองเตย",
+  "sub_district": "คลองเตย",
+  "address_detail": "เศรษฐีทวีทรัพย์2 ",
+  "landmark": "อยู่ในซอย (ชุมชนตัดเย็บ)",
+  "operators": { "name": "ลูกจ้าง" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": { "phone": "097-239-4542", "line": "", "facebook": "" },
+  "payments": { "payments": ["cash", "online"] },
+  "establish_date": "2002-01-01",
+  "fitting_room": 0,
+  "notes": [
+    {
+      "operting_time": "",
+      "payment": "",
+      "condition": "",
+      "operator_experience": "ทำงานที่ร้านใหญ่มาก่อน"
+    }
+  ]
+}

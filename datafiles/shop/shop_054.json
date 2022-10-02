@@ -1,0 +1,23 @@
+{
+  "name": "คูณ ซ่อมผ้า",
+  "province": "กรุงเทพ",
+  "district": "วัฒนา",
+  "sub_district": "พระโขนงเหนือ",
+  "address_detail": "34/2 สุขุมวิท ",
+  "landmark": "ติดถนนใหญ่",
+  "operators": { "name": "คูณ" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": { "phone": "099-383-9568", "line": "", "facebook": "" },
+  "payments": { "payments": ["cash"] },
+  "establish_date": "2002-01-01",
+  "fitting_room": 0,
+  "notes": [
+    {
+      "operting_time": "",
+      "payment": "",
+      "condition": "ถ้าช่างทำไม่เนียบแก้ให้ฟรี",
+      "operator_experience": "เรียนเย็บจากการทำงานในโรงงาน"
+    }
+  ]
+}

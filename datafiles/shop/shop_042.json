@@ -1,0 +1,23 @@
+{
+  "name": "ซ่อมผ้าคุณลุงสุขุมวิทซอย 8",
+  "province": "กรุงเทพ",
+  "district": "",
+  "sub_district": "",
+  "address_detail": "สุขุมวิท8 ",
+  "landmark": "หลังร้านส้มตำ ข้างๆมีตู้ATM SCB",
+  "operators": { "name": "" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": { "phone": "", "line": "", "facebook": "" },
+  "payments": { "payments": ["cash"] },
+  "establish_date": "2012-01-01",
+  "fitting_room": 0,
+  "notes": [
+    {
+      "operting_time": "",
+      "payment": "",
+      "condition": "จนกว่าจะพอใจ",
+      "operator_experience": "เรียนรู้ด้วยตัวเอง"
+    }
+  ]
+}

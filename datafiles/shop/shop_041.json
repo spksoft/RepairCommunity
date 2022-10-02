@@ -1,0 +1,27 @@
+{
+  "name": "Bangkok Clothes Alteration",
+  "province": "กรุงเทพ",
+  "district": "คลองเตย",
+  "sub_district": "",
+  "address_detail": "174/1 Bangkok Bazaar สุขุมวิท8 ",
+  "landmark": "ติดถนนใหญ่ร้านอยู่ตรงกลาง BTS นานา",
+  "operators": { "name": "แจ๊คกี้" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": {
+    "phone": "0813132691/022542909",
+    "line": "BKK Bazaar",
+    "facebook": "Bangkok Clothes Alteration Services"
+  },
+  "payments": { "payments": ["cash", "online", "credit"] },
+  "establish_date": "2012-01-01",
+  "fitting_room": 1,
+  "notes": [
+    {
+      "operting_time": "",
+      "payment": "",
+      "condition": "ไม่มีประกัน ทำจนกว่าลูกค้าจะพอใจ",
+      "operator_experience": "เรียนมาจากพ่อแม่"
+    }
+  ]
+}

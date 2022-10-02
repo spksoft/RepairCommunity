@@ -1,0 +1,23 @@
+{
+  "name": "ลุงสัม ซ่อมผ้า",
+  "province": "กรุงเทพ",
+  "district": "วัฒนา",
+  "sub_district": "พระโขนงเหนือ",
+  "address_detail": "สุขุมวิท ",
+  "landmark": "ตรงข้ามร้านโดมิโนพิซซ่า ถ.สุขุมวิท ติดถนนใหญ่",
+  "operators": { "name": "ลุงสัม" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": { "phone": "087-001-2909", "line": "", "facebook": "" },
+  "payments": { "payments": ["cash"] },
+  "establish_date": "2012-01-01",
+  "fitting_room": 0,
+  "notes": [
+    {
+      "operting_time": "",
+      "payment": "",
+      "condition": "",
+      "operator_experience": "ฝึกฝนด้วยตนเอง"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "ร้านซ่อมเสื้อ คุณมีนา",
+  "province": "กรุงเทพ",
+  "district": "คลองเตย",
+  "sub_district": "คลองเตย",
+  "address_detail": "2880 ",
+  "landmark": "ตั้งอยู่หลังร้านศรีวิจิตรสตีล",
+  "operators": { "name": "มีนา" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": { "phone": "093-946-6539", "line": "", "facebook": "" },
+  "payments": { "payments": ["cash", "online"] },
+  "establish_date": "2002-01-01",
+  "fitting_room": 0,
+  "notes": [
+    {
+      "operting_time": "โทรมาถามก่อน",
+      "payment": "",
+      "condition": "",
+      "operator_experience": "เรียนรู้จากคุณแม่"
+    }
+  ]
+}

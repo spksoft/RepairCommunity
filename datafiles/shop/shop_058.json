@@ -1,0 +1,23 @@
+{
+  "name": "ร้านลุงเล็ก ซ่อม แก้ทรงเสื้อผ้า",
+  "province": "กรุงเทพ",
+  "district": "วัฒนา",
+  "sub_district": "พระโขนงเหนือ",
+  "address_detail": "สุขุมวิท71 ",
+  "landmark": "ติดถนนใหญ่",
+  "operators": { "name": "ช่างเล็ก" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": { "phone": "063-731-5798", "line": "", "facebook": "" },
+  "payments": { "payments": ["cash", "online"] },
+  "establish_date": "2002-01-01",
+  "fitting_room": 0,
+  "notes": [
+    {
+      "operting_time": "",
+      "payment": "",
+      "condition": "มั่นใจในฝีมือตนเอง ไม่มีประกัน",
+      "operator_experience": "ฝึกฝนด้วยตนเอง"
+    }
+  ]
+}

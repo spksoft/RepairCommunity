@@ -1,0 +1,23 @@
+{
+  "name": "ย่าแก้ว(ซ่อมผ้า)",
+  "province": "กรุงเทพ",
+  "district": "พระโขนง",
+  "sub_district": "บางจาก",
+  "address_detail": "",
+  "landmark": "อยู่ในซอย",
+  "operators": { "name": "" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": { "phone": "089-888-2454", "line": "", "facebook": "" },
+  "payments": { "payments": ["cash", "online"] },
+  "establish_date": "1992-01-01",
+  "fitting_room": 1,
+  "notes": [
+    {
+      "operting_time": "",
+      "payment": "",
+      "condition": "ประกันภายใน2วัน",
+      "operator_experience": "เรียนช่างฝีมือตัดเย็บ และเก็บประสบการณ์แล้วจึงมาเปิดร้านเอง"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "ร้านซ่อมเสื้อผ้า",
+  "province": "กรุงเทพ",
+  "district": "วัฒนา",
+  "sub_district": "คลองตันเหนือ",
+  "address_detail": "999/9 ตึก2 ชั้น1 ปรีดีพนมยงค์39 ",
+  "landmark": "เข้ามาในซอยผ่านป้อม รปภ. เจอร้านเลย",
+  "operators": { "name": "สุวรรณ" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": { "phone": "085-832-8754", "line": "", "facebook": "" },
+  "payments": { "payments": ["cash", "online"] },
+  "establish_date": "2007-01-01",
+  "fitting_room": 1,
+  "notes": [
+    {
+      "operting_time": "",
+      "payment": "",
+      "condition": "",
+      "operator_experience": "ทำงานร้านตัดเย็บมาก่อน"
+    }
+  ]
+}

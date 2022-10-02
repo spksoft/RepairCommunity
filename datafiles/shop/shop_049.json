@@ -1,0 +1,23 @@
+{
+  "name": "ช่างอู๋ซ่อมผ้า เย็บผ้า",
+  "province": "กรุงเทพ",
+  "district": "วัฒนา",
+  "sub_district": "คลองเตยเหนือ",
+  "address_detail": "เอกมัย23 ",
+  "landmark": "ใต้สะพานลอย ซ.เอกมัย23",
+  "operators": { "name": "ช่างอู๋" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": { "phone": "063-253-7992", "line": "", "facebook": "" },
+  "payments": { "payments": ["cash", "online"] },
+  "establish_date": "2016-01-01",
+  "fitting_room": 0,
+  "notes": [
+    {
+      "operting_time": "",
+      "payment": "",
+      "condition": "ภายใน2วัน",
+      "operator_experience": "จบฝีมือการเย็บจากสายอาชีพ"
+    }
+  ]
+}

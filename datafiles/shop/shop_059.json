@@ -1,0 +1,23 @@
+{
+  "name": "ศักดิ์คอลเลคชั่น",
+  "province": "กรุงเทพ",
+  "district": "สวนหลวง",
+  "sub_district": "สวนหลวง",
+  "address_detail": "47/660 ศิริพจน์ ",
+  "landmark": "ตรงข้ามเซเว่น ",
+  "operators": { "name": "ช่างทุเรียน" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": { "phone": "084-321-0086", "line": "", "facebook": "" },
+  "payments": { "payments": ["cash", "online"] },
+  "establish_date": "2002-01-01",
+  "fitting_room": 1,
+  "notes": [
+    {
+      "operting_time": "",
+      "payment": "",
+      "condition": "ไม่ทำกระเป๋าเพราะหาเนื่อผ้ายาก",
+      "operator_experience": "มีประสบการณ์ในการทำงานร้านผ้ามาก่อน"
+    }
+  ]
+}

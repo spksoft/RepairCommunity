@@ -1,0 +1,23 @@
+{
+  "name": "ร้านสมานอ่อนนุช17",
+  "province": "กรุงเทพ",
+  "district": "สวนหลวง",
+  "sub_district": "สวนหลวง",
+  "address_detail": "อ่อนนุช17 ",
+  "landmark": "ติดถนนใหญ่",
+  "operators": { "name": "สมาน" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": { "phone": "089-423-9765", "line": "", "facebook": "" },
+  "payments": { "payments": ["cash", "online"] },
+  "establish_date": "2002-01-01",
+  "fitting_room": 0,
+  "notes": [
+    {
+      "operting_time": "โทรมาถามก่อน",
+      "payment": "",
+      "condition": "",
+      "operator_experience": "ฝึกฝนด้วยตนเอง"
+    }
+  ]
+}

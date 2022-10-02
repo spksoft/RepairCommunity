@@ -1,0 +1,27 @@
+{
+  "name": "ช่างเอกซ่อมผ้า",
+  "province": "กรุงเทพ",
+  "district": "ห้วยขวาง",
+  "sub_district": "บางกะปิ",
+  "address_detail": "6/46 ศูนย์วิจัย 6 ",
+  "landmark": "อยู่ในซอย",
+  "operators": { "name": "ช่างเอก" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": {
+    "phone": "084-448-6943/084-916-4845",
+    "line": "",
+    "facebook": ""
+  },
+  "payments": { "payments": ["cash", "online"] },
+  "establish_date": "2002-01-01",
+  "fitting_room": 0,
+  "notes": [
+    {
+      "operting_time": "ป้ายหน้าร้านเปิด07.00 โมง แต่เปิดจริง10.00โมง",
+      "payment": "",
+      "condition": "ซ่อมให้ใหม่ภายใน1วัน",
+      "operator_experience": "เป็นลูกจ้างมาก่อนจากร้านใหญ่ ๆ แล้วออกมาทำเอง"
+    }
+  ]
+}

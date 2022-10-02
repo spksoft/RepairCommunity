@@ -1,0 +1,23 @@
+{
+  "name": "ช่างแอ๋ว เปลี่ยนทรง แก้ชุด",
+  "province": "กรุงเทพ",
+  "district": "คลองเตย",
+  "sub_district": "คลองเตย",
+  "address_detail": "1128 เศรษฐีทวีทรัพย์2 ",
+  "landmark": "อยู่ในซอย (ชุมชนตัดเย็บ)",
+  "operators": { "name": "แอ๋ว" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": { "phone": "095-794-6248", "line": "", "facebook": "" },
+  "payments": { "payments": ["cash", "online"] },
+  "establish_date": "2002-01-01",
+  "fitting_room": 1,
+  "notes": [
+    {
+      "operting_time": "",
+      "payment": "",
+      "condition": "",
+      "operator_experience": "เรียนรู้ด้วยตัวเอง"
+    }
+  ]
+}

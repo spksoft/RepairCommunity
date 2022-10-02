@@ -1,0 +1,23 @@
+{
+  "name": "ลุงบัว",
+  "province": "กรุงเทพ",
+  "district": "สวนหลวง",
+  "sub_district": "สวนหลวง",
+  "address_detail": "303/39(166) ",
+  "landmark": "ริมถนนน(ทางโค้งพอดี)",
+  "operators": { "name": "ลุงบัว" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": { "phone": "092-759-9392", "line": "", "facebook": "" },
+  "payments": { "payments": ["cash"] },
+  "establish_date": "2002-01-01",
+  "fitting_room": 0,
+  "notes": [
+    {
+      "operting_time": "โทรมาถามก่อน",
+      "payment": "",
+      "condition": "",
+      "operator_experience": "ฝึกฝนด้วยตนเอง"
+    }
+  ]
+}

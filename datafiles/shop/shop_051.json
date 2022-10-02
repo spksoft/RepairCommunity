@@ -1,0 +1,27 @@
+{
+  "name": "ร้านซ่อมเสื้อผ้า ท่าเรือ มศว. ประสานมิตร",
+  "province": "กรุงเทพ",
+  "district": "",
+  "sub_district": "",
+  "address_detail": "เพชรบุรี38 ",
+  "landmark": "เพชรบุรี38 สุดซอยติดสะพานข้ามเข้า มศว.",
+  "operators": { "name": "ช่างข้าว" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": {
+    "phone": "093-214-7259",
+    "line": "093-214-7259",
+    "facebook": ""
+  },
+  "payments": { "payments": ["cash", "online"] },
+  "establish_date": "2002-01-01",
+  "fitting_room": 0,
+  "notes": [
+    {
+      "operting_time": "โทรมาถามก่อน",
+      "payment": "",
+      "condition": "ถ้างานด่วนเพิ่มค่าบริการ",
+      "operator_experience": "จบการตัดเย็บโดยตรง"
+    }
+  ]
+}

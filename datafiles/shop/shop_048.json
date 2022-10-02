@@ -1,0 +1,23 @@
+{
+  "name": "ป้าเช็กซ่อมผ้า แก้ไขทรง",
+  "province": "กรุงเทพ",
+  "district": "",
+  "sub_district": "",
+  "address_detail": "",
+  "landmark": "ใกล้ปากซอยสุขุมวิท63",
+  "operators": { "name": "ป้าเช็ก" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": { "phone": "085-100-6253", "line": "", "facebook": "" },
+  "payments": { "payments": ["cash", "online"] },
+  "establish_date": "2012-01-01",
+  "fitting_room": 0,
+  "notes": [
+    {
+      "operting_time": "",
+      "payment": "",
+      "condition": "ภายใน2วัน",
+      "operator_experience": "เรียนรู้จากประสบการณ์"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "ซ่อมเสื้อผ้า(ลุงอ้วน)",
+  "province": "กรุงเทพ",
+  "district": "",
+  "sub_district": "พระโขนงเหนือ",
+  "address_detail": "115/4 ",
+  "landmark": "อยู่ในซอย",
+  "operators": { "name": "ช่างอ้วน" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": { "phone": "", "line": "", "facebook": "" },
+  "payments": { "payments": ["cash", "online"] },
+  "establish_date": "1992-01-01",
+  "fitting_room": 0,
+  "notes": [
+    {
+      "operting_time": "",
+      "payment": "",
+      "condition": "ต้องนำผ้ามาให้ช่างดูก่อน",
+      "operator_experience": "เริ่มต้นจากการขายผ้ามาก่อนและในสมัยก่อนรายได้ดี จึงศึกษาเรียนรูปการเย็บผ้าด้วยตนเอง จนได้เริ่มเปิดร้านเล็กๆและขยายจนถึงปัจจุบัน"
+    }
+  ]
+}
