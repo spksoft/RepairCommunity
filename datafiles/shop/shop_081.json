@@ -1,0 +1,23 @@
+{
+  "name": "ห้องเสื้อสาคร",
+  "province": "กรุงเทพ",
+  "district": "ประเวศ",
+  "sub_district": "หนองบอน",
+  "address_detail": "1/22 เฉลิมพระเกียรติ ร.9 ",
+  "landmark": "ติดศาลท้าวชัยมงคลมหาสิทธิโชค",
+  "operators": { "name": "สาคร" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": { "phone": "089-103-2065", "line": "", "facebook": "" },
+  "payments": { "payments": ["cash", "online"] },
+  "establish_date": "1992-01-01",
+  "fitting_room": 1,
+  "notes": [
+    {
+      "operting_time": "หยุดวันขัตฤกษ์",
+      "payment": "",
+      "condition": "ถ้าผิดพลาดจากทางร้าน รับผิดชอบทั้งหมด",
+      "operator_experience": "ฝึกฝนด้วยตนเองและทางครอบครัวสอนให้"
+    }
+  ]
+}

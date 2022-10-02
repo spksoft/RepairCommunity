@@ -1,0 +1,23 @@
+{
+  "name": "ร้านภาวดี ซิตี้",
+  "province": "กรุงเทพ",
+  "district": "ประเวศ",
+  "sub_district": "ดอกไม้",
+  "address_detail": "A837 รามคำแหง2 ",
+  "landmark": "ภายในตลาด NumberOne Market",
+  "operators": { "name": "ภา" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": { "phone": "085-914-4499", "line": "", "facebook": "" },
+  "payments": { "payments": ["cash", "online"] },
+  "establish_date": "2010-01-01",
+  "fitting_room": 1,
+  "notes": [
+    {
+      "operting_time": "",
+      "payment": "",
+      "condition": "มั่นใจในฝีมือตนเอง ไม่มีประกัน",
+      "operator_experience": "ฝึกฝนด้วยตนเอง"
+    }
+  ]
+}

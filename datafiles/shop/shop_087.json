@@ -1,0 +1,23 @@
+{
+  "name": "ลุงชิด ซ่อมผ้า",
+  "province": "กรุงเทพ",
+  "district": "พระโขนง",
+  "sub_district": "บางจาก",
+  "address_detail": "37/11 สุขุมวิท64/1 ",
+  "landmark": "เข้าไปในซอย อยู่ซ้ายมือ ขายน้ำส้มด้วย",
+  "operators": { "name": "ลุงชิด" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": { "phone": "092-248-3870", "line": "", "facebook": "" },
+  "payments": { "payments": ["cash", "online"] },
+  "establish_date": "1992-01-01",
+  "fitting_room": 0,
+  "notes": [
+    {
+      "operting_time": "",
+      "payment": "",
+      "condition": "ประกันภายใน2วัน",
+      "operator_experience": "เรียนรู้กับภรรยา แล้วมาเปิดร้านด้วยกัน"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "ป้าพิมพ์ แก้ไขทรงเสื้อผ้า",
+  "province": "กรุงเทพ",
+  "district": "ประเวศ",
+  "sub_district": "ดอกไม้",
+  "address_detail": "7/9 รามคำแหง2 ซอย23 แยก5 ",
+  "landmark": "อยู่ใต้ตึก",
+  "operators": { "name": "ป้าพิมพ์" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": { "phone": "088-789-1571", "line": "", "facebook": "" },
+  "payments": { "payments": ["cash"] },
+  "establish_date": "2012-01-01",
+  "fitting_room": 0,
+  "notes": [
+    {
+      "operting_time": "โทรมาถามก่อน",
+      "payment": "",
+      "condition": "ปรับปรุงจนกว่าลูกค้าจะพอใจ",
+      "operator_experience": "ฝึกฝนด้วยตนเอง"
+    }
+  ]
+}

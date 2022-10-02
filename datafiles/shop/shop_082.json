@@ -1,0 +1,23 @@
+{
+  "name": "ป้าผ้อม แก้ไขเสื้อ",
+  "province": "กรุงเทพ",
+  "district": "ประเวศ",
+  "sub_district": "หนองบอน",
+  "address_detail": "61/7 เฉลิมพระเกียรติ ร.9 ซอย14 แยก16 ",
+  "landmark": "อยู่สุดซอย",
+  "operators": { "name": "ป้าผ้อม" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": { "phone": "", "line": "", "facebook": "" },
+  "payments": { "payments": ["cash"] },
+  "establish_date": "1992-01-01",
+  "fitting_room": 1,
+  "notes": [
+    {
+      "operting_time": "",
+      "payment": "",
+      "condition": "ต้องนำชิ้นงานมาให้ดูหน้าร้านก่อน",
+      "operator_experience": "ฝึกฝนด้วยตนเอง"
+    }
+  ]
+}

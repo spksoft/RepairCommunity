@@ -1,0 +1,23 @@
+{
+  "name": "ร้านปักเสื้อนวลจันทร์ ราม2",
+  "province": "กรุงเทพ",
+  "district": "ประเวศ",
+  "sub_district": "ดอกไม้",
+  "address_detail": "A034 รามคำแหง2 ",
+  "landmark": "ภายในตลาด NumberOne Market",
+  "operators": { "name": "พี่นวล" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": { "phone": "090-104-0579", "line": "", "facebook": "" },
+  "payments": { "payments": ["cash", "online"] },
+  "establish_date": "2012-01-01",
+  "fitting_room": 0,
+  "notes": [
+    {
+      "operting_time": "โทรมาถามก่อน",
+      "payment": "",
+      "condition": "ถ้าผิดพลาดจากทางร้าน รับผิดชอบทั้งหมด",
+      "operator_experience": "เรียนจบสายตรงของวิชาชีพ และมีประสบการณ์การทำงานอยู่แล้วจึงมาเปิดร้าน"
+    }
+  ]
+}

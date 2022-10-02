@@ -1,0 +1,23 @@
+{
+  "name": "ซ่อมผ้า รุ่งนภา",
+  "province": "กรุงเทพ",
+  "district": "ประเวศ",
+  "sub_district": "ดอกไม้",
+  "address_detail": "4/11 รามคำแหง2 ซอย23 ",
+  "landmark": "อยู่ใต้ตึก",
+  "operators": { "name": "รุ่งนภา" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": { "phone": "063-679-1218", "line": "", "facebook": "" },
+  "payments": { "payments": ["cash", "online"] },
+  "establish_date": "2002-01-01",
+  "fitting_room": 0,
+  "notes": [
+    {
+      "operting_time": "โทรมาถามก่อน อาจปิดร้านกลับก่อนเวลา",
+      "payment": "",
+      "condition": "มั่นใจในฝีมือตนเอง ไม่มีประกัน",
+      "operator_experience": "เรียนงานตัดเย็บมากศูนย์ฝึก สั่งสมประสบการณ์ มาเรื่อยๆจนหันมาเปิดร้านของตัวเอง"
+    }
+  ]
+}

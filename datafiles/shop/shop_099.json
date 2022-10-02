@@ -1,0 +1,23 @@
+{
+  "name": "ร้านพิมดาว ซ่อมและตัดเสื้อ",
+  "province": "กรุงเทพ",
+  "district": "ประเวศ",
+  "sub_district": "ดอกไม้",
+  "address_detail": "A029 รามคำแหง2 ",
+  "landmark": "ภายในตลาด NumberOne Market",
+  "operators": { "name": "พิมดาว" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": { "phone": "097-198-6856", "line": "", "facebook": "" },
+  "payments": { "payments": ["cash", "online"] },
+  "establish_date": "2007-01-01",
+  "fitting_room": 0,
+  "notes": [
+    {
+      "operting_time": "โทรมาถามก่อน",
+      "payment": "",
+      "condition": "ปรับปรุงจนกว่าลูกค้าจะพอใจ",
+      "operator_experience": "ฝึกฝนด้วยตนเอง"
+    }
+  ]
+}

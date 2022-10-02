@@ -1,0 +1,23 @@
+{
+  "name": "บ้านตัดเย็บ",
+  "province": "กรุงเทพ",
+  "district": "ประเวศ",
+  "sub_district": "ดอกไม้",
+  "address_detail": "5/11 รามคำแหง2 ซอย23 แยก5 ",
+  "landmark": "อยู่ใต้ตึก",
+  "operators": { "name": "ลูกจ้าง" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": { "phone": "082-450-6116", "line": "", "facebook": "" },
+  "payments": { "payments": ["cash", "online"] },
+  "establish_date": "2018-01-01",
+  "fitting_room": 0,
+  "notes": [
+    {
+      "operting_time": "โทรมาถามก่อน",
+      "payment": "",
+      "condition": "มั่นใจในฝีมือตนเอง ไม่มีประกัน",
+      "operator_experience": "ฝึกฝนด้วยตนเอง"
+    }
+  ]
+}

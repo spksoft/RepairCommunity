@@ -1,0 +1,23 @@
+{
+  "name": "โอสถานนท์",
+  "province": "กรุงเทพ",
+  "district": "ประเวศ",
+  "sub_district": "ดอกไม้",
+  "address_detail": "A053 รามคำแหง2 ",
+  "landmark": "ภายในตลาด NumberOne Market",
+  "operators": { "name": "ทม" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": { "phone": "085-146-8716", "line": "", "facebook": "" },
+  "payments": { "payments": ["cash"] },
+  "establish_date": "2012-01-01",
+  "fitting_room": 1,
+  "notes": [
+    {
+      "operting_time": "",
+      "payment": "",
+      "condition": "ประกันภายใน2วัน",
+      "operator_experience": "ฝึกฝนด้วยตนเองและทางครอบครัวสอนให้"
+    }
+  ]
+}

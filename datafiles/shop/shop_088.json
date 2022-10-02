@@ -1,0 +1,23 @@
+{
+  "name": "วรภัทร ตัดเย็บเสื้อผ้า",
+  "province": "กรุงเทพ",
+  "district": "ประเวศ",
+  "sub_district": "ดอกไม้",
+  "address_detail": "A014 รามคำแหง2 ",
+  "landmark": "ภายในตลาด NumberOne Market",
+  "operators": { "name": "ภัทร" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": { "phone": "099-230-3735", "line": "", "facebook": "" },
+  "payments": { "payments": ["cash", "online"] },
+  "establish_date": "2012-01-01",
+  "fitting_room": 0,
+  "notes": [
+    {
+      "operting_time": "",
+      "payment": "",
+      "condition": "",
+      "operator_experience": "เป็็นสาวโรงงานตัดเย็บมาก่อนแล้วลาออกมาเปิดร้านเองเป็นหลาย10ปี"
+    }
+  ]
+}

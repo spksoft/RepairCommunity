@@ -1,0 +1,23 @@
+{
+  "name": "ร้านศิริลักษณ์ รับตัดเสื้อ",
+  "province": "กรุงเทพ",
+  "district": "ประเวศ",
+  "sub_district": "ดอกไม้",
+  "address_detail": "A752 รามคำแหง2 ",
+  "landmark": "ภายในตลาด NumberOne Market",
+  "operators": { "name": "ลัก" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": { "phone": "089-516-9224", "line": "", "facebook": "" },
+  "payments": { "payments": ["cash"] },
+  "establish_date": "2012-01-01",
+  "fitting_room": 1,
+  "notes": [
+    {
+      "operting_time": "โทรมาถามก่อน อาจปิดร้านกลับก่อนเวลา",
+      "payment": "",
+      "condition": "ประกันภายใน2วัน",
+      "operator_experience": "ฝึกฝนด้วยตนเองและทางครอบครัวสอนให้"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Jira รับซ่อม แก้ทรง เสื้อผ้า",
+  "province": "กรุงเทพ",
+  "district": "ประเวศ",
+  "sub_district": "ดอกไม้",
+  "address_detail": "A059 รามคำแหง2 ",
+  "landmark": "ภายในตลาด NumberOne Market",
+  "operators": { "name": "อ้อย" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": { "phone": "063-624-4429", "line": "", "facebook": "" },
+  "payments": { "payments": ["cash", "online"] },
+  "establish_date": "2007-01-01",
+  "fitting_room": 0,
+  "notes": [
+    {
+      "operting_time": "",
+      "payment": "",
+      "condition": "มั่นใจในฝีมือตนเองและถามลูกค้าจนมั่นใจก่อนแล้วลงมือทำ ไม่มีประกัน",
+      "operator_experience": "ทำงานโรงงานเย็บมาก่อนแล้วมาเปิดร้านเอง"
+    }
+  ]
+}

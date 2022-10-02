@@ -1,0 +1,23 @@
+{
+  "name": "ร้านเจ๊สายสุดา รามฯ 2",
+  "province": "กรุงเทพ",
+  "district": "ประเวศ",
+  "sub_district": "ดอกไม้",
+  "address_detail": "A055 รามคำแหง2 ",
+  "landmark": "ภายในตลาด NumberOne Market",
+  "operators": { "name": "เจ๊ดา" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": { "phone": "081-813-5156", "line": "", "facebook": "" },
+  "payments": { "payments": ["cash", "online"] },
+  "establish_date": "2012-01-01",
+  "fitting_room": 0,
+  "notes": [
+    {
+      "operting_time": "",
+      "payment": "",
+      "condition": "ปรับปรุงจนกว่าลูกค้าจะพอใจ",
+      "operator_experience": "ฝึกฝนด้วยตนเอง"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "ร้านศร ซ่อมด่วน รับตัดชุดทุกชนิด",
+  "province": "กรุงเทพ",
+  "district": "ประเวศ",
+  "sub_district": "ดอกไม้",
+  "address_detail": "A056 รามคำแหง2 ",
+  "landmark": "ภายในตลาด NumberOne Market",
+  "operators": { "name": "ศร" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": { "phone": "063-647-6289", "line": "", "facebook": "" },
+  "payments": { "payments": ["cash", "online"] },
+  "establish_date": "2002-01-01",
+  "fitting_room": 0,
+  "notes": [
+    {
+      "operting_time": "โทรมาถามก่อน",
+      "payment": "",
+      "condition": "มั่นใจในฝีมือตนเองและถามลูกค้าจนมั่นใจก่อนแล้วลงมือทำ ไม่มีประกัน",
+      "operator_experience": "ฝึกฝนด้วยตนเอง"
+    }
+  ]
+}
