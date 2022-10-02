@@ -1,0 +1,23 @@
+{
+  "name": "ร้านเย็็บผ้าแม่อ๊อด",
+  "province": "กรุงเทพ",
+  "district": "วัฒนา",
+  "sub_district": "คลองตันเหนือ",
+  "address_detail": "เอกมัย7 ",
+  "landmark": "ติดหน้าซอย",
+  "operators": { "name": "ป้าอ๊อด" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": { "phone": "092-697-2055", "line": "", "facebook": "" },
+  "payments": { "payments": ["cash", "online"] },
+  "establish_date": "2002-01-01",
+  "fitting_room": 1,
+  "notes": [
+    {
+      "operting_time": "โทรมาถามก่อน",
+      "payment": "",
+      "condition": "แก้จนกว่าจะพอใจ",
+      "operator_experience": "ทำงานในโรงตัดเย็บมาก่อน"
+    }
+  ]
+}

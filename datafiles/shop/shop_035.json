@@ -1,0 +1,27 @@
+{
+  "name": "รับซ่อมแก้ทรงเสื้อผ้า",
+  "province": "กรุงเทพ",
+  "district": "วัฒนา",
+  "sub_district": "คลองตันเหนือ",
+  "address_detail": "1109/1 สุขุมวิท 57  ",
+  "landmark": "อยู่หน้าร้านแก๊ส บุญชนะแก๊ส",
+  "operators": { "name": "ตุ๋ย" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": {
+    "phone": "085-214-1437",
+    "line": "tuy0609",
+    "facebook": "ตุ๋ย ร้านแก๊สทรงเสื้อแท้ รับเปลี่ยนซิป รับเปลี่ยนยางยิด ตัดต่อยีนส์"
+  },
+  "payments": { "payments": ["cash", "online"] },
+  "establish_date": "2002-01-01",
+  "fitting_room": 0,
+  "notes": [
+    {
+      "operting_time": "",
+      "payment": "",
+      "condition": "ประกันภายใน2วัน",
+      "operator_experience": "ประสบการณ์การทำงานโดยตรง"
+    }
+  ]
+}

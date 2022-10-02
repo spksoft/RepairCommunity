@@ -1,0 +1,27 @@
+{
+  "name": "ทิพย์ฟิกซ์ชอป",
+  "province": "กรุงเทพ",
+  "district": "ปทุมวัน",
+  "sub_district": "ลุมพินี",
+  "address_detail": "111 เดอะไนน์ทีนแอทชิดลม ชิดลม ",
+  "landmark": "ชั้น 3 ขึ้นไปเจอเลย",
+  "operators": { "name": "ทิพย์" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": {
+    "phone": "087-039-4854",
+    "line": "",
+    "facebook": "Thip Fixshop"
+  },
+  "payments": { "payments": ["cash", "online"] },
+  "establish_date": "2017-01-01",
+  "fitting_room": 1,
+  "notes": [
+    {
+      "operting_time": "",
+      "payment": "",
+      "condition": "ดูแลจนกว่าจะพอใจ",
+      "operator_experience": "เรียนวิชาชีพนี้โดยตรงและจากประสบการณ์ทำงาน"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Litle Stich Shop",
+  "province": "กรุงเทพ",
+  "district": "วัฒนา",
+  "sub_district": "คลองเตยเหนือ",
+  "address_detail": "B401 Terminal21 ชั้นB สุขุมวิท19 ",
+  "landmark": "ชั้น B ลงบันไดเจอเลย อยู่ฝั่งจอดรถ",
+  "operators": { "name": "knit" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": {
+    "phone": "094-178-9874",
+    "line": "",
+    "facebook": "Knit Aoki Bangkok"
+  },
+  "payments": { "payments": ["cash", "online"] },
+  "establish_date": "2017-01-01",
+  "fitting_room": 1,
+  "notes": [
+    {
+      "operting_time": "หยุดนักขัตฤกษ์",
+      "payment": "",
+      "condition": "มีประกันตลอดหากผิดพลาดจากทางร้าน",
+      "operator_experience": "เรียนรู้จากโรงเรียนซ่อมผ้าไหมจากประเทศญี่ปุ่น"
+    }
+  ]
+}

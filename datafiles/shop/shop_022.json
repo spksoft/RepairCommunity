@@ -1,0 +1,27 @@
+{
+  "name": "รับแก้งานทุกชนิด(ช่างนิ่ม)",
+  "province": "กรุงเทพ",
+  "district": "ปทุมวัน",
+  "sub_district": "",
+  "address_detail": "Siamsquare ซอย3 ",
+  "landmark": "อยูู่่ในซอย 3",
+  "operators": { "name": "ช่างนุ่มนิ่ม" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": {
+    "phone": "091-131-1439",
+    "line": "lovely1439",
+    "facebook": "รับแก้เสื้อผ้าทุกชนิด สยามสแควร์ซอย3 ช่างนิ่ม"
+  },
+  "payments": { "payments": ["cash", "online"] },
+  "establish_date": "2017-01-01",
+  "fitting_room": 0,
+  "notes": [
+    {
+      "operting_time": "โทรมาถามก่อน",
+      "payment": "",
+      "condition": "ไม่มีประกันเนื่องจากมั่นใจในงานซ่อม แต่ถ้างานตัดจากทางร้านโดยตรงดูแลให้แน่นอน",
+      "operator_experience": "ประสบการณ์ทำงาน"
+    }
+  ]
+}

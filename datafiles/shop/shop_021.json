@@ -1,0 +1,27 @@
+{
+  "name": "โนรา ลิโด้",
+  "province": "กรุงเทพ",
+  "district": "ปทุมวัน",
+  "sub_district": "",
+  "address_detail": "236/16 ลิโด้ พระรามที่1 ",
+  "landmark": "ชั้นใต้ดินโรงหนังลิโด้ ตรงข้ามร้านอาหาร Dakgalbi",
+  "operators": { "name": "โนรา" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": {
+    "phone": "098-521-0769",
+    "line": "098-521-0769",
+    "facebook": "ร้านโนราห์ รับซ่อมเสื้อผ้า ใต้ลิโด้"
+  },
+  "payments": { "payments": ["cash", "online"] },
+  "establish_date": "2012-01-01",
+  "fitting_room": 0,
+  "notes": [
+    {
+      "operting_time": "โทรมาถามก่อน",
+      "payment": "",
+      "condition": "จนกว่าลูกค้าจะพอใจ",
+      "operator_experience": "เริ่มต้นจากการฝึกงานสมัยวัยรุ่น"
+    }
+  ]
+}

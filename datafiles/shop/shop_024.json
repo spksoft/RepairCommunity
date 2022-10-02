@@ -1,0 +1,27 @@
+{
+  "name": "The Machine",
+  "province": "กรุงเทพ",
+  "district": "ปทุมวัน",
+  "sub_district": "",
+  "address_detail": "258/7 ลิโด้ ",
+  "landmark": "โรงหนังลิโด้ชั้น2 บันไดซ้าย",
+  "operators": { "name": "วิรัช" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": {
+    "phone": "081-836-5729",
+    "line": "",
+    "facebook": "The machine BKK"
+  },
+  "payments": { "payments": ["cash", "online"] },
+  "establish_date": "1997-01-01",
+  "fitting_room": 1,
+  "notes": [
+    {
+      "operting_time": "",
+      "payment": "",
+      "condition": "จนกว่าลูกค้าจะพอใจ แม้แต่ด้ายหลุดเราก็ดูแลให้",
+      "operator_experience": "เริ่มต้นจากการเป็็นเด็กฝึกเย็บผ้าโหลและพัฒนามาตัดกางเกงยีนส์ที่มาบุญครอง และพัฒนานาฝีมือมาตลอด20ปี"
+    }
+  ]
+}

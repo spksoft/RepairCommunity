@@ -1,0 +1,27 @@
+{
+  "name": "ร้านซ่อมผ้าป้านีย์",
+  "province": "กรุงเทพ",
+  "district": "ห้วยขวาง",
+  "sub_district": "บางกะปิ",
+  "address_detail": "เพชรบุรี40 ",
+  "landmark": "ติดร้านกาแฟและซ่อมมือถือฮอมโมบาย",
+  "operators": { "name": "ป้านีย์" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": {
+    "phone": "086-688-7861/094-723-3722",
+    "line": "",
+    "facebook": ""
+  },
+  "payments": { "payments": ["cash", "online"] },
+  "establish_date": "2002-01-01",
+  "fitting_room": 0,
+  "notes": [
+    {
+      "operting_time": "โทรมาถามก่อน",
+      "payment": "",
+      "condition": "",
+      "operator_experience": "ประสบการณ์การเรียนตัดเย็บด้วยตนเอง"
+    }
+  ]
+}

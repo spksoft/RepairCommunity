@@ -1,0 +1,27 @@
+{
+  "name": "Benjamas tailor shop",
+  "province": "กรุงเทพ",
+  "district": "",
+  "sub_district": "คลองเตย",
+  "address_detail": "212/6-7 Korean town ชั้น4 สุขุมวิท12 ",
+  "landmark": "ออกจากลิฟต์ Korean Town ชั้น4 แล้วเลี้ยวขวาแล้วเดินไปตลอดแนวจนสุดแล้วเลี้ยวซ้ายจะถึงหน้าร้านพอดี",
+  "operators": { "name": "ช่างเบญ" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": {
+    "phone": "080-618-7311",
+    "line": "Benjamastailor",
+    "facebook": "Benjamastailor shop"
+  },
+  "payments": { "payments": ["cash", "online"] },
+  "establish_date": "2012-01-01",
+  "fitting_room": 1,
+  "notes": [
+    {
+      "operting_time": "",
+      "payment": "",
+      "condition": "",
+      "operator_experience": "เรียนจบสายตรงของวิชาชีพ และมีประสบการณ์การทำงานอยู่แล้ว"
+    }
+  ]
+}

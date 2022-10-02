@@ -1,0 +1,27 @@
+{
+  "name": "DRY-CLINNIQUE",
+  "province": "กรุงเทพ",
+  "district": "ปทุมวัน",
+  "sub_district": "ลุมพินี",
+  "address_detail": "3 Aussino House ชิดลม ",
+  "landmark": "อยูู่หลัง The Bedroom Company Chidlom",
+  "operators": { "name": "ลูกจ้างภายในร้าน" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": {
+    "phone": "02-254-5385/081-454-4224",
+    "line": "",
+    "facebook": "Dry~CliniQue"
+  },
+  "payments": { "payments": ["cash", "online"] },
+  "establish_date": "2002-01-01",
+  "fitting_room": 0,
+  "notes": [
+    {
+      "operting_time": "",
+      "payment": "",
+      "condition": "รับผิดชอบตลอดเวลาถ้าเกิดจากทางร้าน",
+      "operator_experience": "บริษัทมีการสอนงานให้พนักงานโดยตรงและส่วนใหญ่จะรับที่มีกระสบการณ์อยู่แล้ว"
+    }
+  ]
+}

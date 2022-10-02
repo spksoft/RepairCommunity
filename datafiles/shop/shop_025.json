@@ -1,0 +1,27 @@
+{
+  "name": "Fixandwash",
+  "province": "กรุงเทพ",
+  "district": "",
+  "sub_district": "",
+  "address_detail": "SaimCenter ",
+  "landmark": "ชั้นใต้ดิน(ชั้นG)ติดบันได",
+  "operators": { "name": "ลูกจ้างภายในร้าน" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": {
+    "phone": "02-613-1451/099-119-8099",
+    "line": "Fixandwash",
+    "facebook": ""
+  },
+  "payments": { "payments": ["cash", "online", "credit"] },
+  "establish_date": "2010-01-01",
+  "fitting_room": 0,
+  "notes": [
+    {
+      "operting_time": "ปิด-เปิดตามเวลาของSaimCenter",
+      "payment": "",
+      "condition": "พร้อมดูแลตลอดเวลา",
+      "operator_experience": "ทางบริษัทจะรับพนักงานที่จบสายตรงจากวิชาชีพโดยตรงและมีประสบการณ์ซ่อมอยู่แล้ว"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "ร้านเย็บผ้าลุงป้า",
+  "province": "กรุงเทพ",
+  "district": "ราชเทวี",
+  "sub_district": "ทุ่งพญาไท",
+  "address_detail": "60/13 เพชรบุรี5 ",
+  "landmark": "ติดถนนใหญ่ ร้านกลาง",
+  "operators": { "name": "" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": { "phone": "081-810-0479", "line": "", "facebook": "" },
+  "payments": { "payments": ["cash", "online"] },
+  "establish_date": "2002-01-01",
+  "fitting_room": 0,
+  "notes": [
+    {
+      "operting_time": "โทรมาถามก่อน",
+      "payment": "",
+      "condition": "",
+      "operator_experience": "ฝึกงานกับที่ทำงานเก่ามาหลาย10ปีและมาเปิดร้านเองในภายหลัง"
+    }
+  ]
+}

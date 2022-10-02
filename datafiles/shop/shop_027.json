@@ -1,0 +1,27 @@
+{
+  "name": "ร้านช่างซิ้มซ่อมแซมเสื้อผ้าแบรนด์เนมสาขา2ชิดลม อาคารมณียา ชั้น1",
+  "province": "กรุงเทพ",
+  "district": "",
+  "sub_district": "",
+  "address_detail": "มณียา ",
+  "landmark": "อยู่ตึกมณียา ข้างเซเว่น ชั้น1",
+  "operators": { "name": "ช่างซิ้ม" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": {
+    "phone": "064-562-9551",
+    "line": "@610isuwh",
+    "facebook": "ร้านช่างซื้มซ่อมแซมเสื้อผ้าแบรนด์เนม"
+  },
+  "payments": { "payments": ["cash", "online", "credit"] },
+  "establish_date": "2002-01-01",
+  "fitting_room": 1,
+  "notes": [
+    {
+      "operting_time": "",
+      "payment": "",
+      "condition": "ดูแลจนกว่าจะพอใจ",
+      "operator_experience": "ประสบการณ์จากการทำงานเรียนรู้ด้วยตัวเอง"
+    }
+  ]
+}

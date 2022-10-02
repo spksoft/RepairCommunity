@@ -1,0 +1,23 @@
+{
+  "name": "รับแก้ทรงเสื้อผ้าช่างฤทธิ์",
+  "province": "กรุงเทพ",
+  "district": "",
+  "sub_district": "",
+  "address_detail": "สุขุมวิท34 ",
+  "landmark": "สุขุมวิท34 ติดริมถนนใหญ่ใกล้ BTS ทองหล่อ",
+  "operators": { "name": "ช่างฤทธิ์" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": { "phone": "086-206-4942", "line": "", "facebook": "" },
+  "payments": { "payments": ["cash", "online"] },
+  "establish_date": "1992-01-01",
+  "fitting_room": 0,
+  "notes": [
+    {
+      "operting_time": "โทรมาถามก่อน",
+      "payment": "",
+      "condition": "แก้ให้จนกว่าจะพอใจ",
+      "operator_experience": "ประสบการณ์การของตัวเอง10ปี"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "แม่แอ๋ซ่อมเสื้อผ้า",
+  "province": "กรุงเทพ",
+  "district": "ปทุมวัน",
+  "sub_district": "",
+  "address_detail": "Siamsquare ซอย3 ",
+  "landmark": "อยูู่่ในซอย 3",
+  "operators": { "name": "แอ๋" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": {
+    "phone": "092-330-9036",
+    "line": "",
+    "facebook": "แม่แอ๋รับซ่อมแก้เสื้อผ้าทุกชนิด"
+  },
+  "payments": { "payments": ["cash", "online"] },
+  "establish_date": "2018-01-01",
+  "fitting_room": 0,
+  "notes": [
+    {
+      "operting_time": "โทรมาถามก่อน",
+      "payment": "",
+      "condition": "",
+      "operator_experience": "เริ่มต้นจากการเป็นเด็กฝึกงานมาหลาย10ปี"
+    }
+  ]
+}

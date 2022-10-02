@@ -1,0 +1,23 @@
+{
+  "name": "ร้านตัดเสื้อ Tailor Shop",
+  "province": "กรุงเทพ",
+  "district": "วัฒนา",
+  "sub_district": "คลองตันเหนือ",
+  "address_detail": "ทาวเวอร์ทองหล่อ ซ.18 ทองหล่อ18 ",
+  "landmark": "เข้ามาสุดซอยทองหล่อ18",
+  "operators": { "name": "ป้าแจ๋ว" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": { "phone": "086-344-3995", "line": "", "facebook": "" },
+  "payments": { "payments": ["cash", "online"] },
+  "establish_date": "2012-01-01",
+  "fitting_room": 1,
+  "notes": [
+    {
+      "operting_time": "โทรมาถามก่อน",
+      "payment": "",
+      "condition": "",
+      "operator_experience": "ฝึกฝนด้วยตนเอง"
+    }
+  ]
+}

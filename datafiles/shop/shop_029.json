@@ -1,0 +1,27 @@
+{
+  "name": "Roes Clothing Alteration",
+  "province": "กรุงเทพ",
+  "district": "",
+  "sub_district": "",
+  "address_detail": "สุขุมวิท25 ",
+  "landmark": "เดินเข้าไปในซอยสุขุมวิทซอย25 200เมตร",
+  "operators": { "name": "ช่างโรส" },
+  "latitude": 0,
+  "longitude": 0,
+  "contracts": {
+    "phone": "085-109-1348",
+    "line": "",
+    "facebook": "Roes Clothing Alterotion"
+  },
+  "payments": { "payments": ["cash", "online"] },
+  "establish_date": "2002-01-01",
+  "fitting_room": 0,
+  "notes": [
+    {
+      "operting_time": "",
+      "payment": "",
+      "condition": "",
+      "operator_experience": "เคยเรียนที่โรงเรียนและออกมาเปิดร้านเองสะสมประสบการณ์มาเรื่อยๆ"
+    }
+  ]
+}
