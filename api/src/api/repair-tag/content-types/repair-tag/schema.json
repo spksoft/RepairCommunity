@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "repair_tags",
+  "info": {
+    "singularName": "repair-tag",
+    "pluralName": "repair-tags",
+    "displayName": "RepairTag",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

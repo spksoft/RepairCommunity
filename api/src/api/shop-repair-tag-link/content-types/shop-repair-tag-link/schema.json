@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "shop_repair_tag_links",
+  "info": {
+    "singularName": "shop-repair-tag-link",
+    "pluralName": "shop-repair-tag-links",
+    "displayName": "ShopRepairTagLink",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "min_price": {
+      "type": "integer"
+    },
+    "spend_time": {
+      "type": "string"
+    },
+    "note": {
+      "type": "text"
+    },
+    "repair_tag": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::repair-tag.repair-tag"
+    },
+    "shop": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::shop.shop"
+    }
+  }
+}
