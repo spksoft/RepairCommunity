@@ -79,6 +79,12 @@
     "update_time": {
       "type": "datetime",
       "required": false
+    },
+    "Id": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::review.review",
+      "mappedBy": "shopId"
     }
   }
 }
