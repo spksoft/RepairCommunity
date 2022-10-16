@@ -1,4 +1,5 @@
 import axios from "axios";
+import { useCallback } from "react";
 
 const ShopList = ({ shops, error }) => {
   if (error) {
@@ -8,9 +9,9 @@ const ShopList = ({ shops, error }) => {
     <ul>
       {shops.data.map((shop) => {
         const id = shop.id;
-        const url = `/shop/${shop.id}`;
+        const url = `/shop/${id}`;
         return (
-          <div key={shop.id}>
+          <div key={id}>
             <a href={url}> {shop.attributes.name}</a>
             <h4>{shop.attributes.address_detail}</h4>
             <h4>latitude : {shop.attributes.latitude}</h4>
@@ -25,7 +26,6 @@ ShopList.getInitialProps = async (ctx) => {
   try {
     const res = await axios.get("http://localhost:1337/api/Shops/?populate=*");
     const shops = res.data;
-
     return { shops };
   } catch (error) {
     return { error };
