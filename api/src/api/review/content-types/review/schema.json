@@ -35,12 +35,6 @@
       "min": 0,
       "default": 0
     },
-    "createTime": {
-      "type": "datetime"
-    },
-    "updateTime": {
-      "type": "datetime"
-    },
     "shopId": {
       "type": "relation",
       "relation": "manyToOne",

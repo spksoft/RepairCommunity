@@ -17,7 +17,7 @@ const Shop = ({ shop, error }) => {
       <div>{shop.attributes.longitude}</div>
       <div>{shop.attributes.longitude}</div>
       <Image src={url} alt="None" width={100} height={100} />
-      <Modal />
+      <Modal shopId={shop.id}/>
     </>
   );
 };

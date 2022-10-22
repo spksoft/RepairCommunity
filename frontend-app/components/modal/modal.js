@@ -1,22 +1,24 @@
 import React, { useState } from "react";
 import axios from "axios";
 
-export default function Modal() {
+export default function Modal({ shopId }) {
   const [modal, setModal] = useState(false);
+  console.log(shopId);
 
-  const toggleModal = () => {
+  const toggleModal = (shopId) => {
     setModal(!modal);
   };
 
-  const addTodo = async () => {
-      const result = await axios.post("http://localhost:1337/api/reviews", {
-          "data": {
-            "shopId": "1",
-            "review": "test - shop ID 1",
-            "username": "test user",
-            "score": "4"
-          }
-      });
+  const addTodo = async (shopId, username, comment, score) => {
+    const result = await axios.post("http://localhost:1337/api/reviews", {
+      data: {
+        shopId: shopId,
+        review: comment,
+        username: username,
+        score: score
+      },
+    });
+    setModal(!modal);
   };
 
   return (
@@ -29,13 +31,32 @@ export default function Modal() {
           <div className="overlay">
             <div className="modal-content">
               <form action="send-data" method="post">
-                <label className="text-session" for="comment">Comment: </label>
+                <label className="text-session" for="comment">
+                  Comment:{" "}
+                </label>
                 <input type="text" id="comment" name="comment" />
                 <div></div>
-                <label className="text-session" for="username">Username: </label>
-                <input type="text" id="username" name="username" />
+                <label className="text-session" for="username">
+                  Username:{" "}
+                </label>{" "}
+                <input type="text" id="username" />
+                <div></div>
+                <label className="text-session" for="score">
+                  score:{" "}
+                </label>{" "}
+                <input type="text" id="score" />
               </form>
-              <button onClick={addTodo} className="close-modal">
+              <button
+                onClick={() => {
+                  addTodo(
+                    shopId,
+                    username.value,
+                    comment.value,
+                    score.value
+                  );
+                }}
+                className="close-modal"
+              >
                 Summit
               </button>
               <button onClick={toggleModal} className="close-modal">
@@ -47,5 +68,4 @@ export default function Modal() {
       )}
     </>
   );
-  console.log(username);
 }
