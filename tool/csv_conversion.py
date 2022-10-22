@@ -16,7 +16,7 @@ def main():
                     tag['note'] = row['note_'+ str(cnt)]
                     tag_list.append(tag)
     
-    dir = './RepairCommunity/datafiles/shop/'
+    dir = '../datafiles/shop/'
     for root, dirs, files in os.walk(dir):
         for file in files:
             f = open(dir+file, encoding="utf-8")
@@ -24,11 +24,11 @@ def main():
             for tag in tag_list:
                 if data['name'] == tag['shop_name']:
                     file_name = re.search(r"(.*).json", file).group(1)
-                    output_name = "./json/" + file_name + "_tag_" + str(tag['repair_tag']) + ".json"
+                    output_name = "../datafiles/ShopRepairTagLink/" + file_name + "_tag_" + str(tag['repair_tag']) + ".json"
                     tag['shop_id'] = int(re.search(r"shop_(.*)", file_name).group(1))
                     loader = jinja2.FileSystemLoader(searchpath="./")
                     jenv = jinja2.Environment(loader=loader)
-                    template = jenv.get_template('tag_template.txt')
+                    template = jenv.get_template('./tag_template.txt')
                     jsonOut = template.render(data=tag)
                     f = open(output_name, "w", encoding="utf-8")
                     f.write(jsonOut)

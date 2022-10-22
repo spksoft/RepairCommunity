@@ -1,0 +1,7 @@
+{
+  "shop": {{data.shop_id}},
+  "repair_tag": {{data.repair_tag}},
+  "min_price": {{data.min_price}},
+  "spend_time": {% if data.spend_time == '' %}null{% else %}"{{data.spend_time}}"{% endif %},
+  "note": {% if data.note == '' %}null{% else %}"{{data.note}}"{% endif %}
+}
