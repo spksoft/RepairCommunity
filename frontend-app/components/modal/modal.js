@@ -3,7 +3,6 @@ import axios from "axios";
 
 export default function Modal({ shopId }) {
   const [modal, setModal] = useState(false);
-  console.log(shopId);
 
   const toggleModal = (shopId) => {
     setModal(!modal);
@@ -15,7 +14,7 @@ export default function Modal({ shopId }) {
         shopId: shopId,
         review: comment,
         username: username,
-        score: score
+        score: score,
       },
     });
     setModal(!modal);
@@ -48,12 +47,7 @@ export default function Modal({ shopId }) {
               </form>
               <button
                 onClick={() => {
-                  addTodo(
-                    shopId,
-                    username.value,
-                    comment.value,
-                    score.value
-                  );
+                  addTodo(shopId, username.value, comment.value, score.value);
                 }}
                 className="close-modal"
               >

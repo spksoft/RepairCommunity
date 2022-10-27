@@ -1,8 +1,10 @@
 import Image from "next/image";
 import axios from "axios";
 import Modal from "../../components/modal/modal";
+import Review from "../../components/review";
 
-const Shop = ({ shop, error }) => {
+const Shop = ({ id, shop, reviews }) => {
+  console.log(reviews);
   let url = "";
   if (shop.attributes.shop_images.data !== null) {
     const name = shop.attributes.shop_images.data[0].attributes.hash;
@@ -17,22 +19,32 @@ const Shop = ({ shop, error }) => {
       <div>{shop.attributes.longitude}</div>
       <div>{shop.attributes.longitude}</div>
       <Image src={url} alt="None" width={100} height={100} />
-      <Modal shopId={shop.id}/>
+      {reviews.map((review) => (
+        <Review review={review} />
+      ))}
+
+      <Modal shopId={shop.id} />
     </>
   );
 };
 
 Shop.getInitialProps = async (context) => {
   const id = context.query.id;
-  const url = `http://localhost:1337/api/Shops/${id}?populate=*`;
-  try {
-    const res = await axios.get(url);
-    const shop = res.data.data;
-
-    return { shop };
-  } catch (error) {
-    return { error };
-  }
+  const shopRes = await axios.get(
+    `http://localhost:1337/api/Shops/${id}?populate=*`
+  );
+  const shop = shopRes.data.data;
+  const reviewRes = await axios.get(
+    `http://localhost:1337/api/reviews?filters[shopId]=${id}`
+  );
+  console.log(reviewRes);
+  const reviews = reviewRes.data.data;
+  console.log(reviews);
+  return {
+    id,
+    shop,
+    reviews,
+  };
 };
 
 export default Shop;
