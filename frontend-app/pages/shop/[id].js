@@ -4,7 +4,6 @@ import Modal from "../../components/modal/modal";
 import Review from "../../components/review";
 
 const Shop = ({ id, shop, reviews, reviewTags }) => {
-  console.log(reviewTags);
   let url = "";
   if (shop.attributes.shop_images.data !== null) {
     const name = shop.attributes.shop_images.data[0].attributes.hash;
@@ -13,6 +12,7 @@ const Shop = ({ id, shop, reviews, reviewTags }) => {
   return (
     <>
       <a href="/shopList"> BACK</a>
+      <h1 className="text-3xl font-bold underline">Hello world!</h1>
       <div>{shop.attributes.name}</div>
       <div>{shop.attributes.address_detail}</div>
       <div>{shop.attributes.latitude}</div>
