@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 import axios from "axios";
 
-export default function Modal({ shopId }) {
+const Modal = ({ shopId, reviewTags }) => {
   const [modal, setModal] = useState(false);
-
   const toggleModal = (shopId) => {
     setModal(!modal);
   };
@@ -30,21 +29,25 @@ export default function Modal({ shopId }) {
           <div className="overlay">
             <div className="modal-content">
               <form action="send-data" method="post">
-                <label className="text-session" for="comment">
+                <label className="text-session" htmlFor="comment">
                   Comment:{" "}
                 </label>
                 <input type="text" id="comment" name="comment" />
                 <div></div>
-                <label className="text-session" for="username">
+                <label className="text-session" htmlFor="username">
                   Username:{" "}
                 </label>{" "}
                 <input type="text" id="username" />
                 <div></div>
-                <label className="text-session" for="score">
+                <label className="text-session" htmlFor="score">
                   score:{" "}
                 </label>{" "}
                 <input type="text" id="score" />
+                {reviewTags.map((tag) => {
+                  return <div key={tag.id}>{tag.attributes.name}</div>;
+                })}
               </form>
+
               <button
                 onClick={() => {
                   addTodo(shopId, username.value, comment.value, score.value);
@@ -62,4 +65,6 @@ export default function Modal({ shopId }) {
       )}
     </>
   );
-}
+};
+
+export default Modal;

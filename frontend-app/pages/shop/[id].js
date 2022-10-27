@@ -3,8 +3,8 @@ import axios from "axios";
 import Modal from "../../components/modal/modal";
 import Review from "../../components/review";
 
-const Shop = ({ id, shop, reviews }) => {
-  console.log(reviews);
+const Shop = ({ id, shop, reviews, reviewTags }) => {
+  console.log(reviewTags);
   let url = "";
   if (shop.attributes.shop_images.data !== null) {
     const name = shop.attributes.shop_images.data[0].attributes.hash;
@@ -19,11 +19,11 @@ const Shop = ({ id, shop, reviews }) => {
       <div>{shop.attributes.longitude}</div>
       <div>{shop.attributes.longitude}</div>
       <Image src={url} alt="None" width={100} height={100} />
-      {reviews.map((review) => (
-        <Review review={review} />
+      {reviews.map((review, index) => (
+        <Review key={index} review={review} />
       ))}
 
-      <Modal shopId={shop.id} />
+      <Modal shopId={shop.id} reviewTags={reviewTags} />
     </>
   );
 };
@@ -34,16 +34,20 @@ Shop.getInitialProps = async (context) => {
     `http://localhost:1337/api/Shops/${id}?populate=*`
   );
   const shop = shopRes.data.data;
+
   const reviewRes = await axios.get(
     `http://localhost:1337/api/reviews?filters[shopId]=${id}`
   );
-  console.log(reviewRes);
   const reviews = reviewRes.data.data;
-  console.log(reviews);
+
+  const reviewTagRes = await axios.get("http://localhost:1337/api/review-tags");
+  const reviewTags = reviewTagRes.data.data;
+
   return {
     id,
     shop,
     reviews,
+    reviewTags,
   };
 };
 
