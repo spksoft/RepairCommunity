@@ -2,11 +2,15 @@
 	"folders": [
 		{
 			"name": "🚀 api",
-			"path": "../../api"
+			"path": "../api"
 		},
 		{
-			"name": "🚀 frontend-app",
-			"path": ".."
+			"name": "🖥️ frontend-app",
+			"path": "../frontend-app"
+		},
+		{
+			"name": "🔧 tool",
+			"path": "../tool"
 		}
 	],
 	"settings": {}
