@@ -2,7 +2,7 @@ import axios from "axios";
 import config from "@/config/index";
 
 class ReviewTagService {
-  instance = null;;
+  instance = null;
   axiosClient = null;
 
   constructor(c, baseURL = config.apiBaseUrl) {
@@ -27,13 +27,9 @@ class ReviewTagService {
     const resp = await this.axiosClient.get(url);
     return resp.data?.data;
   }
-
 }
 
 const ReviewTagServiceInstance = ReviewTagService.Instance();
 
 export default ReviewTagServiceInstance;
-export {
-  ReviewTagServiceInstance,
-  ReviewTagService,
-}
+export { ReviewTagServiceInstance, ReviewTagService };

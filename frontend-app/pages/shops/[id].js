@@ -51,9 +51,9 @@ const Page = ({ shop, reviews, reviewTags }) => {
 
 Page.getInitialProps = async (context) => {
   const shopId = context.query.id;
-  const shopResp =  shopService.GetByID(shopId);
-  const reviewsResp =  shopService.GetReviewsByShopID(shopId);
-  const reviewTagsResp =  reviewTagService.GetAll();
+  const shopResp = shopService.GetByID(shopId);
+  const reviewsResp = shopService.GetReviewsByShopID(shopId);
+  const reviewTagsResp = reviewTagService.GetAll();
   const [shop, reviews, reviewTags] = await Promise.all([shopResp, reviewsResp, reviewTagsResp])
 
   return {
