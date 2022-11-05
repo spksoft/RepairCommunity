@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import axios from "axios";
 import Modal from "../../components/modal/modal";
 import Review from "../../components/review";
@@ -11,7 +12,7 @@ const Shop = ({ id, shop, reviews, reviewTags }) => {
   }
   return (
     <>
-      <a href="/shopList"> BACK</a>
+      <Link href="/shopList"> BACK</Link>
       <h1 className="text-3xl font-bold underline">Hello world!</h1>
       <div>{shop.attributes.name}</div>
       <div>{shop.attributes.address_detail}</div>
