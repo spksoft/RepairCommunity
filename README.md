@@ -21,6 +21,9 @@ For developing RepaireCommunity, we recommend using the VSCode workspace.
 3. Navigate to `.vscode/api.code-workspace` and open it
 4. Click open workspace
 
+<img width="1440" alt="image" src="https://user-images.githubusercontent.com/1377991/200118244-40780a80-a581-4a9a-becb-28ae197aa545.png">
+
+
 #### Frontend-app
 1. Navigate to `frontend-app`
 2. Run `npm install`
