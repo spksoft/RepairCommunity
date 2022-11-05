@@ -4,7 +4,7 @@ import axios from "axios";
 import Modal from "../../components/modal/modal";
 import Review from "../../components/review";
 
-const Shop = ({ id, shop, reviews, reviewTags }) => {
+const ShopByIDPage = ({ id, shop, reviews, reviewTags }) => {
   let url = "";
   if (shop.attributes.shop_images.data !== null) {
     const name = shop.attributes.shop_images.data[0].attributes.hash;
@@ -29,7 +29,7 @@ const Shop = ({ id, shop, reviews, reviewTags }) => {
   );
 };
 
-Shop.getInitialProps = async (context) => {
+ShopByIDPage.getInitialProps = async (context) => {
   const id = context.query.id;
   const shopRes = await axios.get(
     `http://localhost:1337/api/Shops/${id}?populate=*`
@@ -52,4 +52,4 @@ Shop.getInitialProps = async (context) => {
   };
 };
 
-export default Shop;
+export default ShopByIDPage;
