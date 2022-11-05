@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import axios from "axios";
-import Modal from "../../components/modal/modal";
-import Review from "../../components/review";
+import Modal from "@/components/modal/modal";
+import Review from "@/components/review";
 
 const ShopPresenter = ({ shop, reviews, reviewTags }) => {
   const { id } = shop;
