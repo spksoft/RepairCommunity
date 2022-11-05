@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
-import axios from "axios";
+import shopService from "@/services/shop";
+import reviewTagService from "@/services/reviewTag";
 import config from "@/config/index";
 import Modal from "@/components/modal/modal";
 import Review from "@/components/review";
@@ -50,18 +51,10 @@ const Page = ({ shop, reviews, reviewTags }) => {
 
 Page.getInitialProps = async (context) => {
   const shopId = context.query.id;
-  const shopRes = await axios.get(
-    `${apiBaseUrl}/api/Shops/${shopId}?populate=*`
-  );
-  const shop = shopRes.data.data;
-
-  const reviewRes = await axios.get(
-    `${apiBaseUrl}/api/reviews?filters[shopId]=${shopId}`
-  );
-  const reviews = reviewRes.data.data;
-
-  const reviewTagRes = await axios.get(`${apiBaseUrl}/api/review-tags`);
-  const reviewTags = reviewTagRes.data.data;
+  const shopResp = await shopService.GetByID(shopId);
+  const reviewsResp = await shopService.GetReviewsByShopID(shopId);
+  const reviewTagsResp = await reviewTagService.GetAll();
+  const [shop, reviews, reviewTags] = await Promise.all([shopResp, reviewsResp, reviewTagsResp])
 
   return {
     shop,
