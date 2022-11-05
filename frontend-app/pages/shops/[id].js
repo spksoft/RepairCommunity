@@ -1,8 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
 import axios from "axios";
+import config from "@/config/index";
 import Modal from "@/components/modal/modal";
 import Review from "@/components/review";
+const { apiBaseUrl } = config;
 
 const ShopPresenter = ({ shop, reviews, reviewTags }) => {
   const { id } = shop;
@@ -12,7 +14,7 @@ const ShopPresenter = ({ shop, reviews, reviewTags }) => {
   let url = "";
   if (shop_images.data !== null) {
     const name = shop_images.data[0].attributes.hash;
-    url = "http://localhost:1337/uploads/" + name + ".jpg";
+    url = `${apiBaseUrl}/uploads/${name}.jpg`;
   }
 
   return (
@@ -35,11 +37,6 @@ const ShopPresenter = ({ shop, reviews, reviewTags }) => {
 }
 
 const Page = ({ shop, reviews, reviewTags }) => {
-  let url = "";
-  if (shop.attributes.shop_images.data !== null) {
-    const name = shop.attributes.shop_images.data[0].attributes.hash;
-    url = "http://localhost:1337/uploads/" + name + ".jpg";
-  }
   return (
     <>
       <ShopPresenter
@@ -54,16 +51,16 @@ const Page = ({ shop, reviews, reviewTags }) => {
 Page.getInitialProps = async (context) => {
   const shopId = context.query.id;
   const shopRes = await axios.get(
-    `http://localhost:1337/api/Shops/${shopId}?populate=*`
+    `${apiBaseUrl}/api/Shops/${shopId}?populate=*`
   );
   const shop = shopRes.data.data;
 
   const reviewRes = await axios.get(
-    `http://localhost:1337/api/reviews?filters[shopId]=${shopId}`
+    `${apiBaseUrl}/api/reviews?filters[shopId]=${shopId}`
   );
   const reviews = reviewRes.data.data;
 
-  const reviewTagRes = await axios.get("http://localhost:1337/api/review-tags");
+  const reviewTagRes = await axios.get(`${apiBaseUrl}/api/review-tags`);
   const reviewTags = reviewTagRes.data.data;
 
   return {
