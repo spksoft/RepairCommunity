@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useCallback } from "react";
 
-const ShopList = ({ shops, error }) => {
+const ShopsPage = ({ shops, error }) => {
   if (error) {
     return <div>An error occured: {error.message}</div>;
   }
@@ -22,7 +22,7 @@ const ShopList = ({ shops, error }) => {
     </ul>
   );
 };
-ShopList.getInitialProps = async (ctx) => {
+ShopsPage.getInitialProps = async (ctx) => {
   try {
     const res = await axios.get("http://localhost:1337/api/Shops/?populate=*");
     const shops = res.data;
@@ -32,4 +32,4 @@ ShopList.getInitialProps = async (ctx) => {
   }
 };
 
-export default ShopList;
+export default ShopsPage;
