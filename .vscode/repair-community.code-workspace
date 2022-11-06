@@ -1,6 +1,10 @@
 {
 	"folders": [
 		{
+			"name": "🏠 root",
+			"path": ".."
+		},
+		{
 			"name": "🚀 api",
 			"path": "../api"
 		},
@@ -11,6 +15,10 @@
 		{
 			"name": "🔧 tool",
 			"path": "../tool"
+		},
+		{
+			"name": "💽 datafiles",
+			"path": "../datafiles"
 		}
 	],
 	"settings": {}
