@@ -6,13 +6,21 @@ const ShopsPage = ({ shops, error }) => {
   if (error) {
     return <div>An error occured: {error.message}</div>;
   }
-  const [inputText, setinputText] = useState('');
+  const [inputText, changeInputText] = useState('');
+  const [tempShops, setTempShops] = useState(shops);
+  const getSearchData = async () => {
+    const res = await axios.get(
+      `http://localhost:1337/api/Shops?filters[name][$contains]=${inputText}`
+    );
+    const resShops = res.data.data;
+    setTempShops(resShops);
+  };
   return (
     <div>
-      <SearchBox searchText={inputText} />
       <ul>
-        {/* <p>ddd {inputSearch}</p> */}
-        {shops.data.map((shop) => {
+        <SearchBox searchText={inputText} updateSearch={changeInputText} onClick={() => getSearchData()}/>
+        <button onClick={() => getSearchData()}>Search</button>
+        {tempShops.map((shop) => {
           const id = shop.id;
           const url = `/shop/${id}`;
           return (
@@ -31,7 +39,7 @@ const ShopsPage = ({ shops, error }) => {
 ShopsPage.getInitialProps = async (ctx) => {
   try {
     const res = await axios.get('http://localhost:1337/api/Shops/?populate=*');
-    const shops = res.data;
+    const shops = res.data.data;
     return { shops };
   } catch (error) {
     return { error };
