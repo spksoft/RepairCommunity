@@ -1,8 +1,8 @@
-import axios from "axios";
-import config from "@/config/index";
+import axios from 'axios';
+import config from '@/config/index';
 
 class ShopService {
-  instance = null;;
+  instance = null;
   axiosClient = null;
 
   constructor(c, baseURL = config.apiBaseUrl) {
@@ -11,7 +11,7 @@ class ShopService {
       return;
     }
     this.axiosClient = axios.create({
-      baseURL,
+      baseURL
     });
   }
 
@@ -33,12 +33,15 @@ class ShopService {
     const resp = await this.axiosClient.get(url);
     return resp.data?.data;
   }
+
+  async getAllShops() {
+    const url = `/api/Shops/?populate=*`;
+    const resp = await this.axiosClient.get(url);
+    return resp.data?.data;
+  }
 }
 
 const ShopServiceInstance = ShopService.Instance();
 
 export default ShopServiceInstance;
-export {
-  ShopServiceInstance,
-  ShopService,
-}
+export { ShopServiceInstance, ShopService };
