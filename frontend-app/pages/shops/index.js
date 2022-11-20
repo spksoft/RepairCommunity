@@ -1,5 +1,4 @@
-import axios from "axios";
-import { useCallback } from "react";
+import shopService from '@/services/shop';
 
 const ShopsPage = ({ shops, error }) => {
   if (error) {
@@ -7,7 +6,7 @@ const ShopsPage = ({ shops, error }) => {
   }
   return (
     <ul>
-      {shops.data.map((shop) => {
+      {shops.map((shop) => {
         const id = shop.id;
         const url = `/shop/${id}`;
         return (
@@ -22,14 +21,11 @@ const ShopsPage = ({ shops, error }) => {
     </ul>
   );
 };
-ShopsPage.getInitialProps = async (ctx) => {
-  try {
-    const res = await axios.get("http://localhost:1337/api/Shops/?populate=*");
-    const shops = res.data;
-    return { shops };
-  } catch (error) {
-    return { error };
-  }
+
+ShopsPage.getInitialProps = async () => {
+  const shopResp = shopService.getAllShops();
+  const [shops] = await Promise.all([shopResp]);
+  return { shops };
 };
 
 export default ShopsPage;
