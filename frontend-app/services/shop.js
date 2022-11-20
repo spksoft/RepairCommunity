@@ -1,4 +1,5 @@
 import axios from 'axios';
+import qs from 'qs';
 import config from '@/config/index';
 
 class ShopService {
@@ -30,6 +31,29 @@ class ShopService {
 
   async GetReviewsByShopID(id) {
     const url = `/api/reviews?filters[shopId]=${id}`;
+    const resp = await this.axiosClient.get(url);
+    return resp.data?.data;
+  }
+
+  async GetShopsBySearch(searchText) {
+    const query = qs.stringify(
+      {
+        filters: {
+          $or: [
+            {
+              name: { $contains: searchText }
+            },
+            {
+              address_detail: { $contains: searchText }
+            }
+          ]
+        }
+      },
+      {
+        encodeValuesOnly: true // prettify URL
+      }
+    );
+    const url = `/api/Shops?${query}`;
     const resp = await this.axiosClient.get(url);
     return resp.data?.data;
   }

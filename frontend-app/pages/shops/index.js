@@ -1,4 +1,6 @@
+import { useState } from 'react';
 import shopService from '@/services/shop';
+import SearchBox from '@/components/SearchBox';
 
 const ShopsPage = ({ shops, error }) => {
   if (error) {
@@ -7,16 +9,21 @@ const ShopsPage = ({ shops, error }) => {
   const [inputText, changeInputText] = useState('');
   const [tempShops, setTempShops] = useState(shops);
   const getSearchData = async () => {
-    const res = await axios.get(
-      `http://localhost:1337/api/Shops?filters[name][$contains]=${inputText}`
-    );
-    const resShops = res.data.data;
-    setTempShops(resShops);
+    const searchResp = shopService.GetShopsBySearch(inputText);
+    const [searchShops] = await Promise.all([searchResp]);
+    console.log(searchShops);
+    setTempShops(searchShops);
   };
 
   return (
     <ul>
-      {shops.map((shop) => {
+      <SearchBox
+        searchText={inputText}
+        updateSearch={changeInputText}
+        onClick={() => getSearchData()}
+      />
+      <button onClick={() => getSearchData()}>Search</button>
+      {tempShops.map((shop) => {
         const id = shop.id;
         const url = `/shops/${id}`;
         return (
