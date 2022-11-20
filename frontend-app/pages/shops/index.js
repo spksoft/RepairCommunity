@@ -8,7 +8,7 @@ const ShopsPage = ({ shops, error }) => {
     <ul>
       {shops.map((shop) => {
         const id = shop.id;
-        const url = `/shop/${id}`;
+        const url = `/shops/${id}`;
         return (
           <div key={id}>
             <a href={url}> {shop.attributes.name}</a>
