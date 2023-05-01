@@ -1,0 +1,16 @@
+version: "3"
+
+services:
+  strapi:
+    build:
+      context: ./api
+    ports:
+      - "1337:1337"
+    volumes:
+      - ./api_data_upload:/app/public/uploads
+      - ./api_data_tmp:/app/.tmp
+  nextjs:
+    build:
+      context: ./frontend-app
+    ports:
+      - "3000:3000"
