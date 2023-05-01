@@ -1,0 +1,27 @@
+name: Test PR
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install Dependencies
+        run: |
+          cd api
+          npm install
+          cd ..
+          cd frontend-app
+          npm install
+      - name: Run Tests
+        run: |
+          cd api
+          npm test
+          cd ..
+          cd frontend-app
+          npm test
